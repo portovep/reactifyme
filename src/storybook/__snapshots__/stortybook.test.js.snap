@@ -1,0 +1,1876 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot tests Contact details default 1`] = `
+<div
+  id="pv-contact-details"
+>
+  <ul
+    className="list-inline"
+  >
+    <li>
+      <a
+        href="https://linkedin.com/in/pabloportoveloso"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa fa-linkedin-square fa-2x"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://github.com/portovep"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa fa-github-square fa-2x"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://twitter.com/portovep"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa fa-twitter-square fa-2x"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        href="mailto:/portovep@tcd.ie"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa fa-envelope-square fa-2x"
+        />
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Snapshot tests Currently Working On default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="homepage-current-status text-muted"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
+          }
+        }
+        style={
+          Object {
+            "textAlign": "justify",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Navigation default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-2"
+    >
+      <ul
+        className="nav nav-pills nav-stacked text-center pv-sidebar navigation"
+      >
+        <li>
+          <a
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Pages App Layout 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-2"
+    >
+      <ul
+        className="nav nav-pills nav-stacked text-center pv-sidebar navigation"
+      >
+        <li>
+          <a
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="col-md-8"
+    >
+      <div>
+        <h1>
+          This is a fake Page
+        </h1>
+        <p>
+          With a fake description
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Pages Home Page 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="row pv-main-column"
+        id="home"
+      >
+        <div
+          className="col-md-4"
+        >
+          <img
+            alt="Profile picture"
+            className="img-responsive img-circle"
+            id="pv-profile-img"
+            src="profile.jpg"
+          />
+        </div>
+        <div
+          className="col-md-8 pv-content"
+        >
+          <div>
+            <div
+              className="homepage-statement lead"
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            >
+              <p
+                className="homepage-statement--title text-center"
+              >
+                <strong>
+                  PABLO PORTO
+                </strong>
+              </p>
+              <div
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
+                  }
+                }
+              />
+            </div>
+            <hr />
+            <div
+              className="homepage-current-status text-muted"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
+                }
+              }
+              style={
+                Object {
+                  "textAlign": "justify",
+                }
+              }
+            />
+            <hr />
+          </div>
+          <div
+            id="pv-contact-details"
+          >
+            <ul
+              className="list-inline"
+            >
+              <li>
+                <a
+                  href="https://linkedin.com/in/pabloportoveloso"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-linkedin-square fa-2x"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/portovep"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-github-square fa-2x"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/portovep"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-twitter-square fa-2x"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:/portovep@tcd.ie"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-envelope-square fa-2x"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Pages Not Found Page 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="row pv-main-column"
+      >
+        <div
+          className="col-md-8 col-md-offset-2"
+          style={
+            Object {
+              "marginTop": "7%",
+            }
+          }
+        >
+          <h1>
+            Ooops
+          </h1>
+          <p
+            className="lead"
+          >
+            The page you are looking for does not exist.
+          </p>
+          <hr />
+          <p>
+            <a
+              className="btn btn-success"
+              href="/"
+              role="button"
+            >
+              <span
+                className="glyphicon glyphicon-home"
+              />
+               
+              Return to the home page
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Pages Projects Page 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="row pv-main-column"
+        id="projects"
+      >
+        <ul
+          className="list-unstyled"
+        >
+          <li>
+            <div
+              className="pv-project"
+              id="Crowdtransport"
+            >
+              <div
+                className="page-header"
+                style={
+                  Object {
+                    "borderBottom": "none",
+                    "paddingBottom": "0px",
+                  }
+                }
+              >
+                <h1>
+                  Crowdtransport
+                   
+                  <small>
+                    2014
+                  </small>
+                </h1>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div>
+                    <ul
+                      className="nav nav-tabs"
+                    >
+                      <li
+                        className="active"
+                        onClick={[Function]}
+                      >
+                        <a
+                          href="#info-crowdtransport"
+                        >
+                          Info
+                        </a>
+                      </li>
+                      <li
+                        className={null}
+                        onClick={[Function]}
+                      >
+                        <a
+                          href="#images-crowdtransport"
+                        >
+                          Media
+                        </a>
+                      </li>
+                    </ul>
+                    <div
+                      className="pv-tab-content tab-content"
+                    >
+                      <div>
+                        <div
+                          className="tab-pane"
+                          id="#info-crowdtransport"
+                          role="tabpanel"
+                        >
+                          <div>
+                            <div
+                              className="col-md-10"
+                              style={
+                                Object {
+                                  "paddingLeft": "1%",
+                                }
+                              }
+                            >
+                              <div
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "<p>Platform based on a mobile app and a REST web service that provides real time public transport information using crowdsourcing techniques. The app allows users to share with others valuable public transport geolocation data while enabling real time visualization of the geolocation of buses and taxis.</p><p>Awarded final year project based on an idea of my own and involving the usage of state of the art Android technologies like text to speech processing (TTS), GPS tracking, Maps API and Google Cloud Messaging.</p>",
+                                  }
+                                }
+                              />
+                              <dl
+                                className="dl-horizontal"
+                              >
+                                <div>
+                                  <dt>
+                                    Team
+                                  </dt>
+                                  <dd>
+                                    <i
+                                      className="fa fa-user"
+                                      style={
+                                        Object {
+                                          "padding": "1px",
+                                        }
+                                      }
+                                    />
+                                    <i
+                                      className="fa fa-user"
+                                      style={
+                                        Object {
+                                          "padding": "1px",
+                                        }
+                                      }
+                                    />
+                                    <i
+                                      className="fa fa-user"
+                                      style={
+                                        Object {
+                                          "padding": "1px",
+                                        }
+                                      }
+                                    />
+                                  </dd>
+                                </div>
+                                <div>
+                                  <dt>
+                                    Technologies
+                                  </dt>
+                                  <dd>
+                                    Android SDK, Java, Restlet, MySQL, AWS
+                                  </dd>
+                                </div>
+                              </dl>
+                            </div>
+                            <div
+                              className="col-md-2 pv-project-buttons-tabbed"
+                              id="pv-project-buttons"
+                            >
+                              <ul
+                                className="list-unstyled"
+                              >
+                                <li
+                                  style={
+                                    Object {
+                                      "marginRight": "5px",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="https://github.com/portovep/crowdtransport"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <i
+                                      className="fa fa-github fa-lg"
+                                    />
+                                     Fork me
+                                  </a>
+                                </li>
+                                <li
+                                  style={
+                                    Object {
+                                      "marginRight": "5px",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="https://github.com/portovep/crowdtransport/releases"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <span
+                                      className="glyphicon glyphicon-floppy-save"
+                                    />
+                                     Download
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              className="pv-project"
+              id="WebRTC - Streaming"
+            >
+              <div
+                className="page-header"
+                style={
+                  Object {
+                    "borderBottom": "none",
+                    "paddingBottom": "0px",
+                  }
+                }
+              >
+                <h1>
+                  WebRTC - Streaming
+                   
+                  <small>
+                    2013
+                  </small>
+                </h1>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-md-12"
+                >
+                  <div>
+                    <ul
+                      className="nav nav-tabs"
+                    >
+                      <li
+                        className="active"
+                        onClick={[Function]}
+                      >
+                        <a
+                          href="#info-webrtc - streaming"
+                        >
+                          Info
+                        </a>
+                      </li>
+                    </ul>
+                    <div
+                      className="pv-tab-content tab-content"
+                    >
+                      <div>
+                        <div
+                          className="tab-pane"
+                          id="#info-webrtc - streaming"
+                          role="tabpanel"
+                        >
+                          <div>
+                            <div
+                              className="col-md-10"
+                              style={
+                                Object {
+                                  "paddingLeft": "1%",
+                                }
+                              }
+                            >
+                              <div
+                                dangerouslySetInnerHTML={
+                                  Object {
+                                    "__html": "<p>Research project that analyzes the feasibility of implementing live video streaming protocols into web applications using WebRTC. The feasibility analysis is accompanied with a practical implementation of a peer-to-peer streaming protocol in WebRTC that runs natively in the browser.</p><p>The research highlights current limitations and future challenges when implementing sophisticated peer-to-peer solutions in a technology that is still in its infancy. </p>",
+                                  }
+                                }
+                              />
+                              <dl
+                                className="dl-horizontal"
+                              >
+                                <div>
+                                  <dt>
+                                    Team
+                                  </dt>
+                                  <dd>
+                                    <i
+                                      className="fa fa-user"
+                                      style={
+                                        Object {
+                                          "padding": "1px",
+                                        }
+                                      }
+                                    />
+                                    <i
+                                      className="fa fa-user"
+                                      style={
+                                        Object {
+                                          "padding": "1px",
+                                        }
+                                      }
+                                    />
+                                    <i
+                                      className="fa fa-user"
+                                      style={
+                                        Object {
+                                          "padding": "1px",
+                                        }
+                                      }
+                                    />
+                                  </dd>
+                                </div>
+                                <div>
+                                  <dt>
+                                    Technologies
+                                  </dt>
+                                  <dd>
+                                    WebRTC, peer.js, jQuery, HTML5/CSS, Bootstrap, Google AppLayout Engine
+                                  </dd>
+                                </div>
+                              </dl>
+                            </div>
+                            <div
+                              className="col-md-2 pv-project-buttons-tabbed"
+                              id="pv-project-buttons"
+                            >
+                              <ul
+                                className="list-unstyled"
+                              >
+                                <li
+                                  style={
+                                    Object {
+                                      "marginRight": "5px",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="http://webrtc-playground.appspot.com"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <span
+                                      className="glyphicon glyphicon-new-window"
+                                    />
+                                     Demo
+                                  </a>
+                                </li>
+                                <li
+                                  style={
+                                    Object {
+                                      "marginRight": "5px",
+                                    }
+                                  }
+                                >
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6916588&queryText%3Dwebrtc+p2p"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <span
+                                      className="glyphicon glyphicon-book"
+                                    />
+                                     Paper
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Personal Information Panel default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div>
+        <div
+          className="homepage-statement lead"
+          style={
+            Object {
+              "textAlign": "justify",
+            }
+          }
+        >
+          <p
+            className="homepage-statement--title text-center"
+          >
+            <strong>
+              PABLO PORTO
+            </strong>
+          </p>
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
+              }
+            }
+          />
+        </div>
+        <hr />
+        <div
+          className="homepage-current-status text-muted"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
+            }
+          }
+          style={
+            Object {
+              "textAlign": "justify",
+            }
+          }
+        />
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Personal statement default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="homepage-statement lead"
+        style={
+          Object {
+            "textAlign": "justify",
+          }
+        }
+      >
+        <p
+          className="homepage-statement--title text-center"
+        >
+          <strong>
+            PABLO PORTO
+          </strong>
+        </p>
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Profile Picture default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-2"
+    >
+      <img
+        alt="Profile picture"
+        className="img-responsive img-circle"
+        id="pv-profile-img"
+        src="profile.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Project Details default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="pv-project"
+        id="Crowdtransport"
+      >
+        <div
+          className="page-header"
+          style={
+            Object {
+              "borderBottom": "none",
+              "paddingBottom": "0px",
+            }
+          }
+        >
+          <h1>
+            Crowdtransport
+             
+            <small>
+              2014
+            </small>
+          </h1>
+        </div>
+        <div
+          className="row"
+        >
+          <div
+            className="col-md-12"
+          >
+            <div>
+              <ul
+                className="nav nav-tabs"
+              >
+                <li
+                  className="active"
+                  onClick={[Function]}
+                >
+                  <a
+                    href="#info-crowdtransport"
+                  >
+                    Info
+                  </a>
+                </li>
+                <li
+                  className={null}
+                  onClick={[Function]}
+                >
+                  <a
+                    href="#images-crowdtransport"
+                  >
+                    Media
+                  </a>
+                </li>
+              </ul>
+              <div
+                className="pv-tab-content tab-content"
+              >
+                <div>
+                  <div
+                    className="tab-pane"
+                    id="#info-crowdtransport"
+                    role="tabpanel"
+                  >
+                    <div>
+                      <div
+                        className="col-md-10"
+                        style={
+                          Object {
+                            "paddingLeft": "1%",
+                          }
+                        }
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "<p>Platform based on a mobile app and a REST web service that provides real time public transport information using crowdsourcing techniques. The app allows users to share with others valuable public transport geolocation data while enabling real time visualization of the geolocation of buses and taxis.</p><p>Awarded final year project based on an idea of my own and involving the usage of state of the art Android technologies like text to speech processing (TTS), GPS tracking, Maps API and Google Cloud Messaging.</p>",
+                            }
+                          }
+                        />
+                        <dl
+                          className="dl-horizontal"
+                        >
+                          <div>
+                            <dt>
+                              Team
+                            </dt>
+                            <dd>
+                              <i
+                                className="fa fa-user"
+                                style={
+                                  Object {
+                                    "padding": "1px",
+                                  }
+                                }
+                              />
+                              <i
+                                className="fa fa-user"
+                                style={
+                                  Object {
+                                    "padding": "1px",
+                                  }
+                                }
+                              />
+                              <i
+                                className="fa fa-user"
+                                style={
+                                  Object {
+                                    "padding": "1px",
+                                  }
+                                }
+                              />
+                            </dd>
+                          </div>
+                          <div>
+                            <dt>
+                              Technologies
+                            </dt>
+                            <dd>
+                              Android SDK, Java, Restlet, MySQL, AWS
+                            </dd>
+                          </div>
+                        </dl>
+                      </div>
+                      <div
+                        className="col-md-2 pv-project-buttons-tabbed"
+                        id="pv-project-buttons"
+                      >
+                        <ul
+                          className="list-unstyled"
+                        >
+                          <li
+                            style={
+                              Object {
+                                "marginRight": "5px",
+                              }
+                            }
+                          >
+                            <a
+                              className="btn btn-default btn-sm"
+                              href="https://github.com/portovep/crowdtransport"
+                              rel="noopener noreferrer"
+                              role="button"
+                              target="_blank"
+                            >
+                              <i
+                                className="fa fa-github fa-lg"
+                              />
+                               Fork me
+                            </a>
+                          </li>
+                          <li
+                            style={
+                              Object {
+                                "marginRight": "5px",
+                              }
+                            }
+                          >
+                            <a
+                              className="btn btn-default btn-sm"
+                              href="https://github.com/portovep/crowdtransport/releases"
+                              rel="noopener noreferrer"
+                              role="button"
+                              target="_blank"
+                            >
+                              <span
+                                className="glyphicon glyphicon-floppy-save"
+                              />
+                               Download
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Project Header default 1`] = `
+<div
+  className="page-header"
+  style={
+    Object {
+      "borderBottom": "none",
+      "paddingBottom": "0px",
+    }
+  }
+>
+  <h1>
+    Crowdtransport
+     
+    <small>
+      2014
+    </small>
+  </h1>
+</div>
+`;
+
+exports[`Snapshot tests Project Images Panel default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="carousel slide"
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+      >
+        <ol
+          className="carousel-indicators"
+        >
+          <li
+            className="active"
+            onClick={[Function]}
+          />
+           
+          <li
+            className={null}
+            onClick={[Function]}
+          />
+           
+          <li
+            className={null}
+            onClick={[Function]}
+          />
+           
+          <li
+            className={null}
+            onClick={[Function]}
+          />
+           
+          <li
+            className={null}
+            onClick={[Function]}
+          />
+           
+        </ol>
+        <div
+          className="carousel-inner"
+        >
+          <div
+            className="item active"
+          >
+            <img
+              alt=""
+              className="pv-img-android"
+              src="/img/media/media_crowdtransport_1.png"
+            />
+          </div>
+          <div
+            className="item"
+          >
+            <img
+              alt=""
+              className="pv-img-android"
+              src="/img/media/media_crowdtransport_2.png"
+            />
+          </div>
+          <div
+            className="item"
+          >
+            <img
+              alt=""
+              className="pv-img-android"
+              src="/img/media/media_crowdtransport_3.png"
+            />
+          </div>
+          <div
+            className="item"
+          >
+            <img
+              alt=""
+              className="pv-img-android"
+              src="/img/media/media_crowdtransport_4.png"
+            />
+          </div>
+          <div
+            className="item"
+          >
+            <img
+              alt=""
+              className="pv-img-android"
+              src="/img/media/media_crowdtransport_5.png"
+            />
+          </div>
+        </div>
+        <a
+          className="carousel-control left"
+          href="#"
+          onClick={[Function]}
+          role="button"
+        >
+          <span
+            className="glyphicon glyphicon-chevron-left"
+          />
+          <span
+            className="sr-only"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          className="carousel-control right"
+          href="#"
+          onClick={[Function]}
+          role="button"
+        >
+          <span
+            className="glyphicon glyphicon-chevron-right"
+          />
+          <span
+            className="sr-only"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Project Information Panel default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div>
+        <div
+          className="col-md-10"
+          style={
+            Object {
+              "paddingLeft": "1%",
+            }
+          }
+        >
+          <div
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Platform based on a mobile app and a REST web service that provides real time public transport information using crowdsourcing techniques. The app allows users to share with others valuable public transport geolocation data while enabling real time visualization of the geolocation of buses and taxis.</p><p>Awarded final year project based on an idea of my own and involving the usage of state of the art Android technologies like text to speech processing (TTS), GPS tracking, Maps API and Google Cloud Messaging.</p>",
+              }
+            }
+          />
+          <dl
+            className="dl-horizontal"
+          >
+            <div>
+              <dt>
+                Team
+              </dt>
+              <dd>
+                <i
+                  className="fa fa-user"
+                  style={
+                    Object {
+                      "padding": "1px",
+                    }
+                  }
+                />
+                <i
+                  className="fa fa-user"
+                  style={
+                    Object {
+                      "padding": "1px",
+                    }
+                  }
+                />
+                <i
+                  className="fa fa-user"
+                  style={
+                    Object {
+                      "padding": "1px",
+                    }
+                  }
+                />
+              </dd>
+            </div>
+            <div>
+              <dt>
+                Technologies
+              </dt>
+              <dd>
+                Android SDK, Java, Restlet, MySQL, AWS
+              </dd>
+            </div>
+          </dl>
+        </div>
+        <div
+          className="col-md-2 pv-project-buttons-tabbed"
+          id="pv-project-buttons"
+        >
+          <ul
+            className="list-unstyled"
+          >
+            <li
+              style={
+                Object {
+                  "marginRight": "5px",
+                }
+              }
+            >
+              <a
+                className="btn btn-default btn-sm"
+                href="https://github.com/portovep/crowdtransport"
+                rel="noopener noreferrer"
+                role="button"
+                target="_blank"
+              >
+                <i
+                  className="fa fa-github fa-lg"
+                />
+                 Fork me
+              </a>
+            </li>
+            <li
+              style={
+                Object {
+                  "marginRight": "5px",
+                }
+              }
+            >
+              <a
+                className="btn btn-default btn-sm"
+                href="https://github.com/portovep/crowdtransport/releases"
+                rel="noopener noreferrer"
+                role="button"
+                target="_blank"
+              >
+                <span
+                  className="glyphicon glyphicon-floppy-save"
+                />
+                 Download
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Project Links default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <ul
+        className="list-unstyled"
+      >
+        <li
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        >
+          <a
+            className="btn btn-default btn-sm"
+            href="#"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            <span
+              className="glyphicon glyphicon-new-window"
+            />
+             Demo
+          </a>
+        </li>
+        <li
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        >
+          <a
+            className="btn btn-default btn-sm"
+            href="#"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            <span
+              className="glyphicon glyphicon-book"
+            />
+             Paper
+          </a>
+        </li>
+        <li
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        >
+          <a
+            className="btn btn-default btn-sm"
+            href="#"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            <span
+              className="glyphicon glyphicon-floppy-save"
+            />
+             Download
+          </a>
+        </li>
+        <li
+          style={
+            Object {
+              "marginRight": "5px",
+            }
+          }
+        >
+          <a
+            className="btn btn-default btn-sm"
+            href="#"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            <i
+              className="fa fa-github fa-lg"
+            />
+             Fork me
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Project List default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <ul
+        className="list-unstyled"
+      >
+        <li>
+          <div
+            className="pv-project"
+            id="Crowdtransport"
+          >
+            <div
+              className="page-header"
+              style={
+                Object {
+                  "borderBottom": "none",
+                  "paddingBottom": "0px",
+                }
+              }
+            >
+              <h1>
+                Crowdtransport
+                 
+                <small>
+                  2014
+                </small>
+              </h1>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-12"
+              >
+                <div>
+                  <ul
+                    className="nav nav-tabs"
+                  >
+                    <li
+                      className="active"
+                      onClick={[Function]}
+                    >
+                      <a
+                        href="#info-crowdtransport"
+                      >
+                        Info
+                      </a>
+                    </li>
+                    <li
+                      className={null}
+                      onClick={[Function]}
+                    >
+                      <a
+                        href="#images-crowdtransport"
+                      >
+                        Media
+                      </a>
+                    </li>
+                  </ul>
+                  <div
+                    className="pv-tab-content tab-content"
+                  >
+                    <div>
+                      <div
+                        className="tab-pane"
+                        id="#info-crowdtransport"
+                        role="tabpanel"
+                      >
+                        <div>
+                          <div
+                            className="col-md-10"
+                            style={
+                              Object {
+                                "paddingLeft": "1%",
+                              }
+                            }
+                          >
+                            <div
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": "<p>Platform based on a mobile app and a REST web service that provides real time public transport information using crowdsourcing techniques. The app allows users to share with others valuable public transport geolocation data while enabling real time visualization of the geolocation of buses and taxis.</p><p>Awarded final year project based on an idea of my own and involving the usage of state of the art Android technologies like text to speech processing (TTS), GPS tracking, Maps API and Google Cloud Messaging.</p>",
+                                }
+                              }
+                            />
+                            <dl
+                              className="dl-horizontal"
+                            >
+                              <div>
+                                <dt>
+                                  Team
+                                </dt>
+                                <dd>
+                                  <i
+                                    className="fa fa-user"
+                                    style={
+                                      Object {
+                                        "padding": "1px",
+                                      }
+                                    }
+                                  />
+                                  <i
+                                    className="fa fa-user"
+                                    style={
+                                      Object {
+                                        "padding": "1px",
+                                      }
+                                    }
+                                  />
+                                  <i
+                                    className="fa fa-user"
+                                    style={
+                                      Object {
+                                        "padding": "1px",
+                                      }
+                                    }
+                                  />
+                                </dd>
+                              </div>
+                              <div>
+                                <dt>
+                                  Technologies
+                                </dt>
+                                <dd>
+                                  Android SDK, Java, Restlet, MySQL, AWS
+                                </dd>
+                              </div>
+                            </dl>
+                          </div>
+                          <div
+                            className="col-md-2 pv-project-buttons-tabbed"
+                            id="pv-project-buttons"
+                          >
+                            <ul
+                              className="list-unstyled"
+                            >
+                              <li
+                                style={
+                                  Object {
+                                    "marginRight": "5px",
+                                  }
+                                }
+                              >
+                                <a
+                                  className="btn btn-default btn-sm"
+                                  href="https://github.com/portovep/crowdtransport"
+                                  rel="noopener noreferrer"
+                                  role="button"
+                                  target="_blank"
+                                >
+                                  <i
+                                    className="fa fa-github fa-lg"
+                                  />
+                                   Fork me
+                                </a>
+                              </li>
+                              <li
+                                style={
+                                  Object {
+                                    "marginRight": "5px",
+                                  }
+                                }
+                              >
+                                <a
+                                  className="btn btn-default btn-sm"
+                                  href="https://github.com/portovep/crowdtransport/releases"
+                                  rel="noopener noreferrer"
+                                  role="button"
+                                  target="_blank"
+                                >
+                                  <span
+                                    className="glyphicon glyphicon-floppy-save"
+                                  />
+                                   Download
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div
+            className="pv-project"
+            id="WebRTC - Streaming"
+          >
+            <div
+              className="page-header"
+              style={
+                Object {
+                  "borderBottom": "none",
+                  "paddingBottom": "0px",
+                }
+              }
+            >
+              <h1>
+                WebRTC - Streaming
+                 
+                <small>
+                  2013
+                </small>
+              </h1>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-md-12"
+              >
+                <div>
+                  <ul
+                    className="nav nav-tabs"
+                  >
+                    <li
+                      className="active"
+                      onClick={[Function]}
+                    >
+                      <a
+                        href="#info-webrtc - streaming"
+                      >
+                        Info
+                      </a>
+                    </li>
+                  </ul>
+                  <div
+                    className="pv-tab-content tab-content"
+                  >
+                    <div>
+                      <div
+                        className="tab-pane"
+                        id="#info-webrtc - streaming"
+                        role="tabpanel"
+                      >
+                        <div>
+                          <div
+                            className="col-md-10"
+                            style={
+                              Object {
+                                "paddingLeft": "1%",
+                              }
+                            }
+                          >
+                            <div
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": "<p>Research project that analyzes the feasibility of implementing live video streaming protocols into web applications using WebRTC. The feasibility analysis is accompanied with a practical implementation of a peer-to-peer streaming protocol in WebRTC that runs natively in the browser.</p><p>The research highlights current limitations and future challenges when implementing sophisticated peer-to-peer solutions in a technology that is still in its infancy. </p>",
+                                }
+                              }
+                            />
+                            <dl
+                              className="dl-horizontal"
+                            >
+                              <div>
+                                <dt>
+                                  Team
+                                </dt>
+                                <dd>
+                                  <i
+                                    className="fa fa-user"
+                                    style={
+                                      Object {
+                                        "padding": "1px",
+                                      }
+                                    }
+                                  />
+                                  <i
+                                    className="fa fa-user"
+                                    style={
+                                      Object {
+                                        "padding": "1px",
+                                      }
+                                    }
+                                  />
+                                  <i
+                                    className="fa fa-user"
+                                    style={
+                                      Object {
+                                        "padding": "1px",
+                                      }
+                                    }
+                                  />
+                                </dd>
+                              </div>
+                              <div>
+                                <dt>
+                                  Technologies
+                                </dt>
+                                <dd>
+                                  WebRTC, peer.js, jQuery, HTML5/CSS, Bootstrap, Google AppLayout Engine
+                                </dd>
+                              </div>
+                            </dl>
+                          </div>
+                          <div
+                            className="col-md-2 pv-project-buttons-tabbed"
+                            id="pv-project-buttons"
+                          >
+                            <ul
+                              className="list-unstyled"
+                            >
+                              <li
+                                style={
+                                  Object {
+                                    "marginRight": "5px",
+                                  }
+                                }
+                              >
+                                <a
+                                  className="btn btn-default btn-sm"
+                                  href="http://webrtc-playground.appspot.com"
+                                  rel="noopener noreferrer"
+                                  role="button"
+                                  target="_blank"
+                                >
+                                  <span
+                                    className="glyphicon glyphicon-new-window"
+                                  />
+                                   Demo
+                                </a>
+                              </li>
+                              <li
+                                style={
+                                  Object {
+                                    "marginRight": "5px",
+                                  }
+                                }
+                              >
+                                <a
+                                  className="btn btn-default btn-sm"
+                                  href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6916588&queryText%3Dwebrtc+p2p"
+                                  rel="noopener noreferrer"
+                                  role="button"
+                                  target="_blank"
+                                >
+                                  <span
+                                    className="glyphicon glyphicon-book"
+                                  />
+                                   Paper
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Project Team Size with 2 team members 1`] = `
+<dl
+  className="dl-horizontal"
+>
+  <div>
+    <dt>
+      Team
+    </dt>
+    <dd>
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+    </dd>
+  </div>
+</dl>
+`;
+
+exports[`Snapshot tests Project Team Size with 6 team members 1`] = `
+<dl
+  className="dl-horizontal"
+>
+  <div>
+    <dt>
+      Team
+    </dt>
+    <dd>
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+      <i
+        className="fa fa-user"
+        style={
+          Object {
+            "padding": "1px",
+          }
+        }
+      />
+    </dd>
+  </div>
+</dl>
+`;
+
+exports[`Snapshot tests Project Technologies with 2 team members 1`] = `
+<dl
+  className="dl-horizontal"
+>
+  <div>
+    <dt>
+      Technologies
+    </dt>
+    <dd>
+      React, Redux, Docker, another buzzword
+    </dd>
+  </div>
+</dl>
+`;
