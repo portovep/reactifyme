@@ -4,6 +4,8 @@ import {GithubLink} from './Links/GithubLink';
 import {PaperLink} from './Links/PaperLink';
 import {DownloadLink} from './Links/DownloadLink';
 
+import './ProjectLinks.css';
+
 
 const displayLink = ({link, type}) => {
   switch (type) {
@@ -20,17 +22,14 @@ const displayLink = ({link, type}) => {
   }
 };
 
-const styles = {
-  marginRight: '5px'
-};
-
 const ProjectLink = (link, idx) =>
-  <li key={idx}
-      style={styles}>
+  <li key={idx}>
     {displayLink(link)}
   </li>;
 
 export const ProjectLinks = ({links}) =>
-  <ul className="list-unstyled">
-    {links.map(ProjectLink)}
-  </ul>;
+  <div className="project-links">
+    <ul className="list-unstyled">
+      {links.map(ProjectLink)}
+    </ul>
+  </div>;

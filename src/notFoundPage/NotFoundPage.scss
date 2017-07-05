@@ -1,0 +1,10 @@
+@import "styles/_media_queries.scss";
+
+
+.not-found-page {
+
+  @include media-query-desk {
+    margin-top: 10%;
+    margin-bottom: 7%;
+  }
+}

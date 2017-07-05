@@ -21,7 +21,7 @@ export const fakeProjects = [
   {
     id: 1,
     name: 'Crowdtransport',
-    date: 2014,
+    date: 2011,
     description: "<p>Platform based on a mobile app and a REST web service that provides real time public transport information using crowdsourcing techniques. The app allows users to share with others valuable public transport geolocation data while enabling real time visualization of the geolocation of buses and taxis.</p><p>Awarded final year project based on an idea of my own and involving the usage of state of the art Android technologies like text to speech processing (TTS), GPS tracking, Maps API and Google Cloud Messaging.</p>",
     teamSize: 3,
     technologies: "Android SDK, Java, Restlet, MySQL, AWS",

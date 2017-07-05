@@ -1,4 +1,4 @@
-import profilePictureSrc from '../resources/img/profile.jpg';
+import profilePictureSrc from './img/profile.jpg';
 
 
 export const fakeProfilePicture = {

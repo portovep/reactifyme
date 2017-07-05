@@ -1,0 +1,9 @@
+@import "styles/_media_queries.scss";
+
+.contact-details {
+  text-align: center;
+
+  @include media-query-desk {
+    text-align: left;
+  }
+}

@@ -8,7 +8,6 @@ import {loadProjects} from './projectsPage/actions/projectsActions';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 
-import './resources/css/custom.css';
 
 const store = configureStore();
 

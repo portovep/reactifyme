@@ -1,0 +1,24 @@
+@import "styles/_media_queries.scss";
+@import "styles/_colors.scss";
+
+.navigation {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+
+  @include media-query-desk {
+    width: 120px;
+    position: fixed;
+    margin-top: 12%;
+  }
+
+  li {
+    a.active,
+    a.active:hover,
+    a.active:focus {
+      background-color: $green;
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+}

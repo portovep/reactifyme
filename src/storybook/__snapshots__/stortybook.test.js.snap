@@ -2,7 +2,7 @@
 
 exports[`Snapshot tests Contact details default 1`] = `
 <div
-  id="pv-contact-details"
+  className="contact-details"
 >
   <ul
     className="list-inline"
@@ -66,15 +66,10 @@ exports[`Snapshot tests Currently Working On default 1`] = `
       className="col-md-8"
     >
       <div
-        className="homepage-current-status text-muted"
+        className="text-muted currently-working-on"
         dangerouslySetInnerHTML={
           Object {
             "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
-          }
-        }
-        style={
-          Object {
-            "textAlign": "justify",
           }
         }
       />
@@ -94,7 +89,7 @@ exports[`Snapshot tests Navigation default 1`] = `
       className="col-md-2"
     >
       <ul
-        className="nav nav-pills nav-stacked text-center pv-sidebar navigation"
+        className="nav nav-pills nav-stacked navigation"
       >
         <li>
           <a
@@ -131,7 +126,7 @@ exports[`Snapshot tests Pages App Layout 1`] = `
       className="col-md-2"
     >
       <ul
-        className="nav nav-pills nav-stacked text-center pv-sidebar navigation"
+        className="nav nav-pills nav-stacked navigation"
       >
         <li>
           <a
@@ -180,7 +175,7 @@ exports[`Snapshot tests Pages Home Page 1`] = `
       className="col-md-8"
     >
       <div
-        className="row pv-main-column"
+        className="row homepage"
         id="home"
       >
         <div
@@ -188,25 +183,19 @@ exports[`Snapshot tests Pages Home Page 1`] = `
         >
           <img
             alt="Profile picture"
-            className="img-responsive img-circle"
-            id="pv-profile-img"
+            className="img-responsive img-circle profile-picture"
             src="profile.jpg"
           />
         </div>
         <div
-          className="col-md-8 pv-content"
+          className="col-md-8 homepage__right-column"
         >
           <div>
             <div
-              className="homepage-statement lead"
-              style={
-                Object {
-                  "textAlign": "justify",
-                }
-              }
+              className="lead personal-statement"
             >
               <p
-                className="homepage-statement--title text-center"
+                className="personal-statement__title text-center"
               >
                 <strong>
                   PABLO PORTO
@@ -222,22 +211,17 @@ exports[`Snapshot tests Pages Home Page 1`] = `
             </div>
             <hr />
             <div
-              className="homepage-current-status text-muted"
+              className="text-muted currently-working-on"
               dangerouslySetInnerHTML={
                 Object {
                   "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
-                }
-              }
-              style={
-                Object {
-                  "textAlign": "justify",
                 }
               }
             />
             <hr />
           </div>
           <div
-            id="pv-contact-details"
+            className="contact-details"
           >
             <ul
               className="list-inline"
@@ -306,7 +290,7 @@ exports[`Snapshot tests Pages Not Found Page 1`] = `
       className="col-md-8"
     >
       <div
-        className="row pv-main-column"
+        className="row not-found-page"
       >
         <div
           className="col-md-8 col-md-offset-2"
@@ -356,15 +340,14 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
       className="col-md-8"
     >
       <div
-        className="row pv-main-column"
-        id="projects"
+        className="row projects-page"
       >
         <ul
           className="list-unstyled"
         >
           <li>
             <div
-              className="pv-project"
+              className="project-details"
               id="Crowdtransport"
             >
               <div
@@ -380,7 +363,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                   Crowdtransport
                    
                   <small>
-                    2014
+                    2011
                   </small>
                 </h1>
               </div>
@@ -416,7 +399,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                       </li>
                     </ul>
                     <div
-                      className="pv-tab-content tab-content"
+                      className="tabs-container tab-content"
                     >
                       <div>
                         <div
@@ -485,53 +468,44 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                               </dl>
                             </div>
                             <div
-                              className="col-md-2 pv-project-buttons-tabbed"
-                              id="pv-project-buttons"
+                              className="col-md-2 project-info-panel__links-container"
                             >
-                              <ul
-                                className="list-unstyled"
+                              <div
+                                className="project-links"
                               >
-                                <li
-                                  style={
-                                    Object {
-                                      "marginRight": "5px",
-                                    }
-                                  }
+                                <ul
+                                  className="list-unstyled"
                                 >
-                                  <a
-                                    className="btn btn-default btn-sm"
-                                    href="https://github.com/portovep/crowdtransport"
-                                    rel="noopener noreferrer"
-                                    role="button"
-                                    target="_blank"
-                                  >
-                                    <i
-                                      className="fa fa-github fa-lg"
-                                    />
-                                     Fork me
-                                  </a>
-                                </li>
-                                <li
-                                  style={
-                                    Object {
-                                      "marginRight": "5px",
-                                    }
-                                  }
-                                >
-                                  <a
-                                    className="btn btn-default btn-sm"
-                                    href="https://github.com/portovep/crowdtransport/releases"
-                                    rel="noopener noreferrer"
-                                    role="button"
-                                    target="_blank"
-                                  >
-                                    <span
-                                      className="glyphicon glyphicon-floppy-save"
-                                    />
-                                     Download
-                                  </a>
-                                </li>
-                              </ul>
+                                  <li>
+                                    <a
+                                      className="btn btn-default btn-sm"
+                                      href="https://github.com/portovep/crowdtransport"
+                                      rel="noopener noreferrer"
+                                      role="button"
+                                      target="_blank"
+                                    >
+                                      <i
+                                        className="fa fa-github fa-lg"
+                                      />
+                                       Fork me
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a
+                                      className="btn btn-default btn-sm"
+                                      href="https://github.com/portovep/crowdtransport/releases"
+                                      rel="noopener noreferrer"
+                                      role="button"
+                                      target="_blank"
+                                    >
+                                      <span
+                                        className="glyphicon glyphicon-floppy-save"
+                                      />
+                                       Download
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -544,7 +518,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
           </li>
           <li>
             <div
-              className="pv-project"
+              className="project-details"
               id="WebRTC - Streaming"
             >
               <div
@@ -586,7 +560,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                       </li>
                     </ul>
                     <div
-                      className="pv-tab-content tab-content"
+                      className="tabs-container tab-content"
                     >
                       <div>
                         <div
@@ -655,53 +629,44 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                               </dl>
                             </div>
                             <div
-                              className="col-md-2 pv-project-buttons-tabbed"
-                              id="pv-project-buttons"
+                              className="col-md-2 project-info-panel__links-container"
                             >
-                              <ul
-                                className="list-unstyled"
+                              <div
+                                className="project-links"
                               >
-                                <li
-                                  style={
-                                    Object {
-                                      "marginRight": "5px",
-                                    }
-                                  }
+                                <ul
+                                  className="list-unstyled"
                                 >
-                                  <a
-                                    className="btn btn-default btn-sm"
-                                    href="http://webrtc-playground.appspot.com"
-                                    rel="noopener noreferrer"
-                                    role="button"
-                                    target="_blank"
-                                  >
-                                    <span
-                                      className="glyphicon glyphicon-new-window"
-                                    />
-                                     Demo
-                                  </a>
-                                </li>
-                                <li
-                                  style={
-                                    Object {
-                                      "marginRight": "5px",
-                                    }
-                                  }
-                                >
-                                  <a
-                                    className="btn btn-default btn-sm"
-                                    href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6916588&queryText%3Dwebrtc+p2p"
-                                    rel="noopener noreferrer"
-                                    role="button"
-                                    target="_blank"
-                                  >
-                                    <span
-                                      className="glyphicon glyphicon-book"
-                                    />
-                                     Paper
-                                  </a>
-                                </li>
-                              </ul>
+                                  <li>
+                                    <a
+                                      className="btn btn-default btn-sm"
+                                      href="http://webrtc-playground.appspot.com"
+                                      rel="noopener noreferrer"
+                                      role="button"
+                                      target="_blank"
+                                    >
+                                      <span
+                                        className="glyphicon glyphicon-new-window"
+                                      />
+                                       Demo
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a
+                                      className="btn btn-default btn-sm"
+                                      href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6916588&queryText%3Dwebrtc+p2p"
+                                      rel="noopener noreferrer"
+                                      role="button"
+                                      target="_blank"
+                                    >
+                                      <span
+                                        className="glyphicon glyphicon-book"
+                                      />
+                                       Paper
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -731,15 +696,10 @@ exports[`Snapshot tests Personal Information Panel default 1`] = `
     >
       <div>
         <div
-          className="homepage-statement lead"
-          style={
-            Object {
-              "textAlign": "justify",
-            }
-          }
+          className="lead personal-statement"
         >
           <p
-            className="homepage-statement--title text-center"
+            className="personal-statement__title text-center"
           >
             <strong>
               PABLO PORTO
@@ -755,15 +715,10 @@ exports[`Snapshot tests Personal Information Panel default 1`] = `
         </div>
         <hr />
         <div
-          className="homepage-current-status text-muted"
+          className="text-muted currently-working-on"
           dangerouslySetInnerHTML={
             Object {
               "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
-            }
-          }
-          style={
-            Object {
-              "textAlign": "justify",
             }
           }
         />
@@ -785,15 +740,10 @@ exports[`Snapshot tests Personal statement default 1`] = `
       className="col-md-8"
     >
       <div
-        className="homepage-statement lead"
-        style={
-          Object {
-            "textAlign": "justify",
-          }
-        }
+        className="lead personal-statement"
       >
         <p
-          className="homepage-statement--title text-center"
+          className="personal-statement__title text-center"
         >
           <strong>
             PABLO PORTO
@@ -824,8 +774,7 @@ exports[`Snapshot tests Profile Picture default 1`] = `
     >
       <img
         alt="Profile picture"
-        className="img-responsive img-circle"
-        id="pv-profile-img"
+        className="img-responsive img-circle profile-picture"
         src="profile.jpg"
       />
     </div>
@@ -844,7 +793,7 @@ exports[`Snapshot tests Project Details default 1`] = `
       className="col-md-8"
     >
       <div
-        className="pv-project"
+        className="project-details"
         id="Crowdtransport"
       >
         <div
@@ -860,7 +809,7 @@ exports[`Snapshot tests Project Details default 1`] = `
             Crowdtransport
              
             <small>
-              2014
+              2011
             </small>
           </h1>
         </div>
@@ -896,7 +845,7 @@ exports[`Snapshot tests Project Details default 1`] = `
                 </li>
               </ul>
               <div
-                className="pv-tab-content tab-content"
+                className="tabs-container tab-content"
               >
                 <div>
                   <div
@@ -965,53 +914,44 @@ exports[`Snapshot tests Project Details default 1`] = `
                         </dl>
                       </div>
                       <div
-                        className="col-md-2 pv-project-buttons-tabbed"
-                        id="pv-project-buttons"
+                        className="col-md-2 project-info-panel__links-container"
                       >
-                        <ul
-                          className="list-unstyled"
+                        <div
+                          className="project-links"
                         >
-                          <li
-                            style={
-                              Object {
-                                "marginRight": "5px",
-                              }
-                            }
+                          <ul
+                            className="list-unstyled"
                           >
-                            <a
-                              className="btn btn-default btn-sm"
-                              href="https://github.com/portovep/crowdtransport"
-                              rel="noopener noreferrer"
-                              role="button"
-                              target="_blank"
-                            >
-                              <i
-                                className="fa fa-github fa-lg"
-                              />
-                               Fork me
-                            </a>
-                          </li>
-                          <li
-                            style={
-                              Object {
-                                "marginRight": "5px",
-                              }
-                            }
-                          >
-                            <a
-                              className="btn btn-default btn-sm"
-                              href="https://github.com/portovep/crowdtransport/releases"
-                              rel="noopener noreferrer"
-                              role="button"
-                              target="_blank"
-                            >
-                              <span
-                                className="glyphicon glyphicon-floppy-save"
-                              />
-                               Download
-                            </a>
-                          </li>
-                        </ul>
+                            <li>
+                              <a
+                                className="btn btn-default btn-sm"
+                                href="https://github.com/portovep/crowdtransport"
+                                rel="noopener noreferrer"
+                                role="button"
+                                target="_blank"
+                              >
+                                <i
+                                  className="fa fa-github fa-lg"
+                                />
+                                 Fork me
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                className="btn btn-default btn-sm"
+                                href="https://github.com/portovep/crowdtransport/releases"
+                                rel="noopener noreferrer"
+                                role="button"
+                                target="_blank"
+                              >
+                                <span
+                                  className="glyphicon glyphicon-floppy-save"
+                                />
+                                 Download
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1040,7 +980,7 @@ exports[`Snapshot tests Project Header default 1`] = `
     Crowdtransport
      
     <small>
-      2014
+      2011
     </small>
   </h1>
 </div>
@@ -1246,53 +1186,44 @@ exports[`Snapshot tests Project Information Panel default 1`] = `
           </dl>
         </div>
         <div
-          className="col-md-2 pv-project-buttons-tabbed"
-          id="pv-project-buttons"
+          className="col-md-2 project-info-panel__links-container"
         >
-          <ul
-            className="list-unstyled"
+          <div
+            className="project-links"
           >
-            <li
-              style={
-                Object {
-                  "marginRight": "5px",
-                }
-              }
+            <ul
+              className="list-unstyled"
             >
-              <a
-                className="btn btn-default btn-sm"
-                href="https://github.com/portovep/crowdtransport"
-                rel="noopener noreferrer"
-                role="button"
-                target="_blank"
-              >
-                <i
-                  className="fa fa-github fa-lg"
-                />
-                 Fork me
-              </a>
-            </li>
-            <li
-              style={
-                Object {
-                  "marginRight": "5px",
-                }
-              }
-            >
-              <a
-                className="btn btn-default btn-sm"
-                href="https://github.com/portovep/crowdtransport/releases"
-                rel="noopener noreferrer"
-                role="button"
-                target="_blank"
-              >
-                <span
-                  className="glyphicon glyphicon-floppy-save"
-                />
-                 Download
-              </a>
-            </li>
-          </ul>
+              <li>
+                <a
+                  className="btn btn-default btn-sm"
+                  href="https://github.com/portovep/crowdtransport"
+                  rel="noopener noreferrer"
+                  role="button"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-github fa-lg"
+                  />
+                   Fork me
+                </a>
+              </li>
+              <li>
+                <a
+                  className="btn btn-default btn-sm"
+                  href="https://github.com/portovep/crowdtransport/releases"
+                  rel="noopener noreferrer"
+                  role="button"
+                  target="_blank"
+                >
+                  <span
+                    className="glyphicon glyphicon-floppy-save"
+                  />
+                   Download
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -1308,92 +1239,72 @@ exports[`Snapshot tests Project Links default 1`] = `
     className="row"
   >
     <div
-      className="col-md-8"
+      className="col-md-2"
     >
-      <ul
-        className="list-unstyled"
+      <div
+        className="project-links"
       >
-        <li
-          style={
-            Object {
-              "marginRight": "5px",
-            }
-          }
+        <ul
+          className="list-unstyled"
         >
-          <a
-            className="btn btn-default btn-sm"
-            href="#"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            <span
-              className="glyphicon glyphicon-new-window"
-            />
-             Demo
-          </a>
-        </li>
-        <li
-          style={
-            Object {
-              "marginRight": "5px",
-            }
-          }
-        >
-          <a
-            className="btn btn-default btn-sm"
-            href="#"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            <span
-              className="glyphicon glyphicon-book"
-            />
-             Paper
-          </a>
-        </li>
-        <li
-          style={
-            Object {
-              "marginRight": "5px",
-            }
-          }
-        >
-          <a
-            className="btn btn-default btn-sm"
-            href="#"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            <span
-              className="glyphicon glyphicon-floppy-save"
-            />
-             Download
-          </a>
-        </li>
-        <li
-          style={
-            Object {
-              "marginRight": "5px",
-            }
-          }
-        >
-          <a
-            className="btn btn-default btn-sm"
-            href="#"
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            <i
-              className="fa fa-github fa-lg"
-            />
-             Fork me
-          </a>
-        </li>
-      </ul>
+          <li>
+            <a
+              className="btn btn-default btn-sm"
+              href="#"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <span
+                className="glyphicon glyphicon-new-window"
+              />
+               Demo
+            </a>
+          </li>
+          <li>
+            <a
+              className="btn btn-default btn-sm"
+              href="#"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <span
+                className="glyphicon glyphicon-book"
+              />
+               Paper
+            </a>
+          </li>
+          <li>
+            <a
+              className="btn btn-default btn-sm"
+              href="#"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <span
+                className="glyphicon glyphicon-floppy-save"
+              />
+               Download
+            </a>
+          </li>
+          <li>
+            <a
+              className="btn btn-default btn-sm"
+              href="#"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <i
+                className="fa fa-github fa-lg"
+              />
+               Fork me
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
@@ -1414,7 +1325,7 @@ exports[`Snapshot tests Project List default 1`] = `
       >
         <li>
           <div
-            className="pv-project"
+            className="project-details"
             id="Crowdtransport"
           >
             <div
@@ -1430,7 +1341,7 @@ exports[`Snapshot tests Project List default 1`] = `
                 Crowdtransport
                  
                 <small>
-                  2014
+                  2011
                 </small>
               </h1>
             </div>
@@ -1466,7 +1377,7 @@ exports[`Snapshot tests Project List default 1`] = `
                     </li>
                   </ul>
                   <div
-                    className="pv-tab-content tab-content"
+                    className="tabs-container tab-content"
                   >
                     <div>
                       <div
@@ -1535,53 +1446,44 @@ exports[`Snapshot tests Project List default 1`] = `
                             </dl>
                           </div>
                           <div
-                            className="col-md-2 pv-project-buttons-tabbed"
-                            id="pv-project-buttons"
+                            className="col-md-2 project-info-panel__links-container"
                           >
-                            <ul
-                              className="list-unstyled"
+                            <div
+                              className="project-links"
                             >
-                              <li
-                                style={
-                                  Object {
-                                    "marginRight": "5px",
-                                  }
-                                }
+                              <ul
+                                className="list-unstyled"
                               >
-                                <a
-                                  className="btn btn-default btn-sm"
-                                  href="https://github.com/portovep/crowdtransport"
-                                  rel="noopener noreferrer"
-                                  role="button"
-                                  target="_blank"
-                                >
-                                  <i
-                                    className="fa fa-github fa-lg"
-                                  />
-                                   Fork me
-                                </a>
-                              </li>
-                              <li
-                                style={
-                                  Object {
-                                    "marginRight": "5px",
-                                  }
-                                }
-                              >
-                                <a
-                                  className="btn btn-default btn-sm"
-                                  href="https://github.com/portovep/crowdtransport/releases"
-                                  rel="noopener noreferrer"
-                                  role="button"
-                                  target="_blank"
-                                >
-                                  <span
-                                    className="glyphicon glyphicon-floppy-save"
-                                  />
-                                   Download
-                                </a>
-                              </li>
-                            </ul>
+                                <li>
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="https://github.com/portovep/crowdtransport"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <i
+                                      className="fa fa-github fa-lg"
+                                    />
+                                     Fork me
+                                  </a>
+                                </li>
+                                <li>
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="https://github.com/portovep/crowdtransport/releases"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <span
+                                      className="glyphicon glyphicon-floppy-save"
+                                    />
+                                     Download
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -1594,7 +1496,7 @@ exports[`Snapshot tests Project List default 1`] = `
         </li>
         <li>
           <div
-            className="pv-project"
+            className="project-details"
             id="WebRTC - Streaming"
           >
             <div
@@ -1636,7 +1538,7 @@ exports[`Snapshot tests Project List default 1`] = `
                     </li>
                   </ul>
                   <div
-                    className="pv-tab-content tab-content"
+                    className="tabs-container tab-content"
                   >
                     <div>
                       <div
@@ -1705,53 +1607,44 @@ exports[`Snapshot tests Project List default 1`] = `
                             </dl>
                           </div>
                           <div
-                            className="col-md-2 pv-project-buttons-tabbed"
-                            id="pv-project-buttons"
+                            className="col-md-2 project-info-panel__links-container"
                           >
-                            <ul
-                              className="list-unstyled"
+                            <div
+                              className="project-links"
                             >
-                              <li
-                                style={
-                                  Object {
-                                    "marginRight": "5px",
-                                  }
-                                }
+                              <ul
+                                className="list-unstyled"
                               >
-                                <a
-                                  className="btn btn-default btn-sm"
-                                  href="http://webrtc-playground.appspot.com"
-                                  rel="noopener noreferrer"
-                                  role="button"
-                                  target="_blank"
-                                >
-                                  <span
-                                    className="glyphicon glyphicon-new-window"
-                                  />
-                                   Demo
-                                </a>
-                              </li>
-                              <li
-                                style={
-                                  Object {
-                                    "marginRight": "5px",
-                                  }
-                                }
-                              >
-                                <a
-                                  className="btn btn-default btn-sm"
-                                  href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6916588&queryText%3Dwebrtc+p2p"
-                                  rel="noopener noreferrer"
-                                  role="button"
-                                  target="_blank"
-                                >
-                                  <span
-                                    className="glyphicon glyphicon-book"
-                                  />
-                                   Paper
-                                </a>
-                              </li>
-                            </ul>
+                                <li>
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="http://webrtc-playground.appspot.com"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <span
+                                      className="glyphicon glyphicon-new-window"
+                                    />
+                                     Demo
+                                  </a>
+                                </li>
+                                <li>
+                                  <a
+                                    className="btn btn-default btn-sm"
+                                    href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6916588&queryText%3Dwebrtc+p2p"
+                                    rel="noopener noreferrer"
+                                    role="button"
+                                    target="_blank"
+                                  >
+                                    <span
+                                      className="glyphicon glyphicon-book"
+                                    />
+                                     Paper
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </div>

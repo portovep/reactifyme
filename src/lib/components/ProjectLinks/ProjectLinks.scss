@@ -1,0 +1,35 @@
+@import "styles/_media_queries.scss";
+
+.project-links {
+  padding-left: 0;
+  padding-right: 1%;
+
+  ul {
+    li {
+      display: inline;
+      margin-right: 5px;
+
+      @include media-query-desk {
+        display: block;
+        margin-top: 8%;
+        margin-right: 0;
+      }
+
+      a {
+        @include media-query-desk {
+          width: 100%;
+          text-align: left;
+        }
+
+        @include media-query-desk-wide {
+          width: 83%;
+        }
+
+      }
+    }
+  }
+
+  @include media-query-desk {
+    padding-left: 0;
+  }
+}

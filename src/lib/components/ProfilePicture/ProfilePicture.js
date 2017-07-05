@@ -1,8 +1,8 @@
 import React from 'react';
 
+import './ProfilePicture.css';
 
 export const ProfilePicture = ({picture}) =>
-  <img id="pv-profile-img"
-       src={picture.src}
+  <img src={picture.src}
        alt={picture.alt}
-       className="img-responsive img-circle"/>;
+       className="img-responsive img-circle profile-picture"/>;

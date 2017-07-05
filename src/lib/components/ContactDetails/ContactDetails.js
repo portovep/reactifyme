@@ -4,6 +4,8 @@ import {GithubHandle} from './Handles/GithubHandle';
 import {TwitterHandle} from './Handles/TwitterHandle';
 import {EmailHandle} from './Handles/EmailHandle';
 
+import './ContactDetails.css'
+
 const displayContactDetail = ({type, handle}) => {
   switch (type) {
     case 'linkedin':
@@ -24,9 +26,8 @@ const ContactDetail = (contactDetail, idx) =>
     {displayContactDetail(contactDetail)}
   </li>;
 
-
 export const ContactDetails = ({contactDetails}) =>
-  <div id="pv-contact-details">
+  <div className="contact-details">
     <ul className="list-inline">
       {contactDetails.map(ContactDetail)}
     </ul>

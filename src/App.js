@@ -5,6 +5,7 @@ import HomePage from './homePage/HomePage';
 import ProjectsPageContainer from './projectsPage/ProjectsPageContainer';
 import NotFoundPage from './notFoundPage/NotFoundPage';
 
+import './App.css'
 
 export const App = () =>
   <Router history={browserHistory}>

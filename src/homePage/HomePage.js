@@ -6,13 +6,15 @@ import {ProfilePicture} from '../lib/components/index';
 import {PersonalInfoPanel} from '../lib/components/index';
 import {ContactDetails} from '../lib/components/index';
 
+import './HomePage.css'
+
 const HomePage = () =>
   <div id="home"
-       className="row pv-main-column">
+       className="row homepage">
     <div className="col-md-4">
       <ProfilePicture picture={fakeProfilePicture} />
     </div>
-    <div className="col-md-8 pv-content">
+    <div className="col-md-8 homepage__right-column">
       <PersonalInfoPanel bio={fakeBio} />
       <ContactDetails contactDetails={fakeContactDetails} />
     </div>

@@ -1,8 +1,11 @@
 import React from 'react';
 import {IndexLink, Link} from "react-router";
 
+import './Navigation.css';
+
+
 export const Navigation = () =>
-  <ul className="nav nav-pills nav-stacked text-center pv-sidebar navigation">
+  <ul className="nav nav-pills nav-stacked navigation">
     <li>
       <IndexLink to="/"
                  role="button"

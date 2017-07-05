@@ -1,8 +1,10 @@
 import React from 'react'
 import {ProjectsList} from "../lib/components/index";
 
+import './ProjectsPage.css';
+
 export const ProjectsPage = ({projects}) =>
-  <div id="projects" className="row pv-main-column">
+  <div className="row projects-page">
     <ProjectsList projects={projects}/>
   </div>;
 

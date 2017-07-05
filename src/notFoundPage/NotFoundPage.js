@@ -6,7 +6,7 @@ const wrapperStyles = {
 };
 
 const NotFoundPage = ({errorPageInfo}) =>
-  <div className="row pv-main-column">
+  <div className="row not-found-page">
     <div className="col-md-8 col-md-offset-2"
          style={wrapperStyles}>
       <h1>{errorPageInfo.headerText}</h1>

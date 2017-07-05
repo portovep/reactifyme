@@ -1,0 +1,17 @@
+@import "styles/_media_queries.scss";
+
+.homepage {
+
+  @include media-query-desk {
+    margin-top: 10%;
+    margin-bottom: 7%;
+  }
+
+  .homepage__right-column {
+    margin: 5%;
+
+    @include media-query-desk {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "styles/colors.scss";
+
+.carousel-control {
+  font-size: 35px !important;
+  color: $light-green !important;
+  opacity: .9 !important;
+
+  &:hover {
+    color: $light-grey !important;
+  }
+
+  &.left, &.right {
+    background-image: none !important;
+  }
+}
+
+.item {
+
+  .pv-img-android {
+    margin-right: auto;
+    margin-left: auto;
+    width: 404px;
+    height: 571px;
+  }
+
+}

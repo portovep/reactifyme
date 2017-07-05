@@ -5,6 +5,8 @@ import {ProjectInfoPanel} from '../index';
 import {ProjectImagesPanel} from '../index';
 import {ProjectHeader} from '../index';
 
+import './ProjectDetails.css';
+
 const projectHasImages = (project) => project.images && project.images.length > 0;
 
 export const ProjectDetails = ({project}) => {
@@ -27,7 +29,7 @@ export const ProjectDetails = ({project}) => {
   }
 
   return (
-    <div id={project.name} className="pv-project">
+    <div id={project.name} className="project-details">
       <ProjectHeader project={project}/>
       <div className="row">
         <div className="col-md-12">

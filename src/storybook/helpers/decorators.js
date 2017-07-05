@@ -15,6 +15,15 @@ export const RightColumnDecorator = (story) =>
     </div>
   </div>;
 
+export const SmallColumnDecorator = (story) =>
+  <div className="container">
+    <div className="row">
+      <div className="col-md-2">
+        {story()}
+      </div>
+    </div>
+  </div>;
+
 export const LeftColumnDecorator = (story) =>
   <div className="container">
     <div className="row">

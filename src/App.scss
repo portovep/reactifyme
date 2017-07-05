@@ -1,0 +1,11 @@
+@import "styles/_media_queries.scss";
+@import "styles/_colors.scss";
+
+body {
+
+  a,
+  a:hover,
+  a:focus {
+    color: $light-green;
+  }
+}

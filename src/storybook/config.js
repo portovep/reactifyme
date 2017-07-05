@@ -3,8 +3,7 @@ import { configure } from '@storybook/react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 
-import '../resources/css/custom.css';
-
+import '../App.css';
 
 const req = require.context('../../src', true, /\.stories\.js$/);
 

@@ -1,11 +1,9 @@
 import React from 'react';
 import {htmlForReact} from '../../helpers/helpers';
 
-const styles = {
-  textAlign: 'justify'
-};
+import './CurrentlyWorKingOn.css'
+
 
 export const CurrentlyWorkingOn = ({description}) =>
-  <div className="homepage-current-status text-muted"
-       style={styles}
+  <div className="text-muted currently-working-on"
        dangerouslySetInnerHTML={htmlForReact(description)}/>;
