@@ -93,6 +93,7 @@ exports[`Snapshot tests Navigation default 1`] = `
       >
         <li>
           <a
+            id="home-nav-button"
             onClick={[Function]}
             role="button"
             style={Object {}}
@@ -102,6 +103,7 @@ exports[`Snapshot tests Navigation default 1`] = `
         </li>
         <li>
           <a
+            id="projects-nav-button"
             onClick={[Function]}
             role="button"
             style={Object {}}
@@ -130,6 +132,7 @@ exports[`Snapshot tests Pages App Layout 1`] = `
       >
         <li>
           <a
+            id="home-nav-button"
             onClick={[Function]}
             role="button"
             style={Object {}}
@@ -139,6 +142,7 @@ exports[`Snapshot tests Pages App Layout 1`] = `
         </li>
         <li>
           <a
+            id="projects-nav-button"
             onClick={[Function]}
             role="button"
             style={Object {}}

@@ -9,12 +9,14 @@ export const Navigation = () =>
     <li>
       <IndexLink to="/"
                  role="button"
+                 id="home-nav-button"
                  activeClassName="active">Home
       </IndexLink>
     </li>
     <li>
       <Link to="/projects"
             role="button"
+            id="projects-nav-button"
             activeClassName="active">Projects
       </Link>
     </li>
