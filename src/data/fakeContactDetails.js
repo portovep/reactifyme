@@ -2,18 +2,18 @@
 export const fakeContactDetails = [
   {
     type: 'linkedin',
-    handle: 'pabloportoveloso'
+    handle: 'yourlinkedinhandle'
   },
   {
     type: 'github',
-    handle: 'portovep'
+    handle: 'your-github-username'
   },
   {
     type: 'twitter',
-    handle: 'portovep'
+    handle: 'your-twitter-handle'
   },
   {
     type: 'email',
-    handle: 'portovep@tcd.ie'
+    handle: 'an-email@awesomeness.com'
   }
 ];

@@ -5,7 +5,7 @@ import {App} from "./App";
 import configureStore from './store/configureStore';
 import {loadProjects} from './projectsPage/actions/projectsActions';
 import {AppPageObject} from './App.page';
-import {fakeBio} from './data/fakeBio';
+import {bio} from './data/bio';
 import {projects} from './data/projects';
 
 
@@ -28,7 +28,7 @@ describe('Reactifyme', () => {
     expect.assertions(4);
 
     expect(appPage.getPersonalStatementTitle().text())
-      .toEqual(fakeBio.personalStatement.title);
+      .toEqual(bio.personalStatement.title);
 
     expect(appPage.getProjectsNavButton().text()).toEqual('Projects');
     await appPage.navigateToProjectsPage();

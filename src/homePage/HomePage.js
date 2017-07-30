@@ -3,9 +3,9 @@ import {Helmet} from 'react-helmet';
 import {ProfilePicture} from '../lib/components/index';
 import {PersonalInfoPanel} from '../lib/components/index';
 import {ContactDetails} from '../lib/components/index';
-import {fakeBio} from '../data/fakeBio';
+import {bio} from '../data/bio';
 import {fakeProfilePicture} from '../data/fakeImages';
-import {fakeContactDetails} from '../data/fakeContactDetails';
+import {contactDetails} from '../data/contactDetails';
 import {fakeHomePageMetadata} from '../data/fakeHomePageMetadata';
 
 import './HomePage.css'
@@ -25,8 +25,8 @@ const HomePage = () =>
       <ProfilePicture picture={fakeProfilePicture} />
     </div>
     <div className="col-md-8 homepage__right-column">
-      <PersonalInfoPanel bio={fakeBio} />
-      <ContactDetails contactDetails={fakeContactDetails} />
+      <PersonalInfoPanel bio={bio} />
+      <ContactDetails contactDetails={contactDetails} />
     </div>
   </div>;
 
