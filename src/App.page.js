@@ -7,19 +7,19 @@ class AppPageObject extends BasePageObject {
     this.wrapper = wrapper;
   }
 
-  personalStatementTitle() {
+  getPersonalStatementTitle() {
     return this.wrapper.find('.personal-statement__title');
   }
 
-  projectsNavButton() {
+  getProjectsNavButton() {
     return this.wrapper.find('#projects-nav-button');
   }
 
-  clickProjectsNavButton() {
+  navigateToProjectsPage() {
     return this._clickOnButton('#projects-nav-button');
   }
 
-  projectDetails() {
+  getProjects() {
     return this.wrapper.find('.project-details');
   }
 }

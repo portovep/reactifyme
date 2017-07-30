@@ -19,21 +19,35 @@ export const fakeLinks = [
 
 export const fakeProjects = [
   {
-    id: 1,
-    name: 'Crowdtransport',
-    date: 2011,
-    description: "<p>Platform based on a mobile app and a REST web service that provides real time public transport information using crowdsourcing techniques. The app allows users to share with others valuable public transport geolocation data while enabling real time visualization of the geolocation of buses and taxis.</p><p>Awarded final year project based on an idea of my own and involving the usage of state of the art Android technologies like text to speech processing (TTS), GPS tracking, Maps API and Google Cloud Messaging.</p>",
-    teamSize: 3,
-    technologies: "Android SDK, Java, Restlet, MySQL, AWS",
+    id: 10,
+    name: "Fake project 2",
+    date: 2014,
+    description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting " +
+    "industry. Lorem Ipsum has been the industry's standard dummy text ever since the " +
+    "1500s, when an unknown printer took a galley of type and scrambled it to make a " +
+    "type specimen book.</p>" +
+    "<p>It has survived not only five centuries, but also the leap into electronic " +
+    "typesetting, remaining essentially unchanged.</p>",
+    teamSize: 2,
+    technologies: "Clojure, Compojure, ClojureScript, Om, ElasticSearch, Redis, Bootstrap",
     links: [
       {
-        type: 'repo',
-        link: 'https://github.com/portovep/crowdtransport'
+        type: "demo",
+        link: "#"
       },
       {
-        type: 'download',
-        link: 'https://github.com/portovep/crowdtransport/releases'
-      }],
+        type: "paper",
+        link: "#"
+      },
+      {
+        type: "repo",
+        link: "#"
+      },
+      {
+        type: "download",
+        link: "#"
+      }
+    ],
     images: [
       "/img/media/media_crowdtransport_1.png",
       "/img/media/media_crowdtransport_2.png",
@@ -43,21 +57,25 @@ export const fakeProjects = [
     ]
   },
   {
-    id: 2,
-    name: 'WebRTC - Streaming',
-    date: 2013,
-    description: "<p>Research project that analyzes the feasibility of implementing live video streaming protocols into web applications using WebRTC. The feasibility analysis is accompanied with a practical implementation of a peer-to-peer streaming protocol in WebRTC that runs natively in the browser.</p>" +
-    "<p>The research highlights current limitations and future challenges when implementing sophisticated peer-to-peer solutions in a technology that is still in its infancy. </p>",
-    teamSize: 3,
-    technologies: "WebRTC, peer.js, jQuery, HTML5/CSS, Bootstrap, Google AppLayout Engine",
+    id: 1,
+    name: "Fake project 1",
+    date: 2011,
+    description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting " +
+    "industry. Lorem Ipsum has been the industry's standard dummy text ever since the " +
+    "1500s, when an unknown printer took a galley of type and scrambled it to make a " +
+    "type specimen book.</p>" +
+    "<p>It has survived not only five centuries, but also the leap into electronic " +
+    "typesetting, remaining essentially unchanged.</p>",
+    teamSize: 2,
+    technologies: "Fancy JS framework, Next Fancy JS framework",
     links: [
       {
-        type: 'demo',
-        link: 'http://webrtc-playground.appspot.com'
+        type: "demo",
+        link: "#"
       },
       {
-        type: 'paper',
-        link: 'http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6916588&queryText%3Dwebrtc+p2p'
+        type: "download",
+        link: "https://google.com"
       }]
-  },
+  }
 ];

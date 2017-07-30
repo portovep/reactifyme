@@ -6,7 +6,7 @@ import configureStore from './store/configureStore';
 import {loadProjects} from './projectsPage/actions/projectsActions';
 import {AppPageObject} from './App.page';
 import {fakeBio} from './data/fakeBio';
-import {fakeProjects} from './data/fakeProjects';
+import {projects} from './data/projects';
 
 
 describe('Reactifyme', () => {
@@ -27,13 +27,13 @@ describe('Reactifyme', () => {
   test('user visits homepage and navigates to projects page', async () => {
     expect.assertions(4);
 
-    expect(appPage.personalStatementTitle().text())
+    expect(appPage.getPersonalStatementTitle().text())
       .toEqual(fakeBio.personalStatement.title);
 
-    expect(appPage.projectsNavButton().text()).toEqual('Projects');
-    await appPage.clickProjectsNavButton();
+    expect(appPage.getProjectsNavButton().text()).toEqual('Projects');
+    await appPage.navigateToProjectsPage();
 
-    expect(appPage.projectDetails().first().prop('id')).toEqual(fakeProjects[0].name);
-    expect(appPage.projectDetails().last().prop('id')).toEqual(fakeProjects[1].name);
+    expect(appPage.getProjects().length).toEqual(projects.length);
+    expect(appPage.getProjects().first().prop('id')).toEqual(projects[0].name);
   });
 });
