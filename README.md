@@ -29,6 +29,19 @@ To build the app for production
 $ npm run build
 ```
 
+## Deployment
+
+``` bash
+$ ./deploy.sh
+```
+
+> Note: Requires to setup firebase-cli for
+[Firebase Hosting service](https://firebase.google.com/docs/hosting/quickstart).
+Before running the script for the first time you need to login.
+``` bash
+$ firebase login
+```
+
 ## UI Component library
 
 To run the component library

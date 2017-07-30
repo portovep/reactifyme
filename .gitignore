@@ -8,6 +8,10 @@
 /build
 src/**/*.css
 
+#deployment
+.firebaserc
+firebase-debug.log
+
 # misc
 .DS_Store
 .env
