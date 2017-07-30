@@ -54,6 +54,11 @@ Then go to:
 
 [http://localhost:9001](http://localhost:9001)
 
+## SEO
+To enable Google Analytics on production:
+* Set your tracking ID as the value of REACT_APP_GA_TRACKING_ID in .env.example
+* Rename .env.example to .env
+* Re-deploy the app
 
 ## License
 
