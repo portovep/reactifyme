@@ -789,9 +789,9 @@ exports[`Snapshot tests Profile Picture default 1`] = `
       className="col-md-2"
     >
       <img
-        alt="Profile picture"
+        alt="Fake Profile picture"
         className="img-responsive img-circle profile-picture"
-        src="profile.jpg"
+        src="fakeProfile.png"
       />
     </div>
   </div>

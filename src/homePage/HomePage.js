@@ -4,7 +4,7 @@ import {ProfilePicture} from '../lib/components/index';
 import {PersonalInfoPanel} from '../lib/components/index';
 import {ContactDetails} from '../lib/components/index';
 import {bio} from '../data/bio';
-import {fakeProfilePicture} from '../data/fakeImages';
+import {profilePicture} from '../data/images';
 import {contactDetails} from '../data/contactDetails';
 import {fakeHomePageMetadata} from '../data/fakeHomePageMetadata';
 
@@ -22,7 +22,7 @@ const HomePage = () =>
        className="row homepage">
     {PageMetadata}
     <div className="col-md-4">
-      <ProfilePicture picture={fakeProfilePicture} />
+      <ProfilePicture picture={profilePicture} />
     </div>
     <div className="col-md-8 homepage__right-column">
       <PersonalInfoPanel bio={bio} />

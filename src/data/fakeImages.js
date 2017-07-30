@@ -1,7 +1,7 @@
-import profilePictureSrc from './img/profile.jpg';
+import profilePictureSrc from './img/fakeProfile.png';
 
 
 export const fakeProfilePicture = {
-  alt: 'Profile picture',
+  alt: 'Fake Profile picture',
   src: profilePictureSrc
 };
