@@ -21,7 +21,7 @@ export const ProjectDetails = ({project}) => {
     }
   ];
 
-  if (project.images && project.images.length > 0) {
+  if (projectHasImages(project)) {
     tabs.push({
       id: imagesTabId,
       label: 'Media'

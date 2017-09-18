@@ -346,6 +346,20 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
       <div
         className="row projects-page"
       >
+        <div>
+          <button
+            className="btn"
+            onClick={[Function]}
+          >
+            Career projects
+          </button>
+          <button
+            className="btn"
+            onClick={[Function]}
+          >
+            Pet projects
+          </button>
+        </div>
         <ul
           className="list-unstyled"
         >

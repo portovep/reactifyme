@@ -19,9 +19,11 @@ export class TabsContainer extends Component {
       return tab.props.id === this.state.activeTabId
     });
 
-    return <div>
-      {activeTab}
-    </div>;
+    return (
+      <div>
+        {activeTab}
+      </div>
+    );
   }
 
   render() {
