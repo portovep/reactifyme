@@ -4,7 +4,6 @@ import {ProjectsList} from "../lib/components/index";
 import {fakeProjectsPageMetadata} from '../data/fakeProjectsPageMetadata';
 
 import './ProjectsPage.css';
-import {petProjects} from '../data/petProjects';
 
 const PageMetadata =
   <Helmet>
@@ -41,7 +40,9 @@ class ProjectsPage extends Component {
 
   render() {
     const displayMode = this.state.displayMode;
-    const careerProjects = this.props.projects;
+    const careerProjects = this.props.careerProjects;
+    const petProjects = this.props.petProjects;
+
     const projectsToDisplay =
       displayMode === DISPLAY_MODES.CAREER_PROJECTS ? careerProjects : petProjects;
 

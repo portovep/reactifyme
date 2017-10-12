@@ -1,17 +1,30 @@
 import * as types from './actionTypes';
-import projectsClient from '../../clients/projectsClientFake';
+import { projectsServiceClientFake } from '../../clients/projectsClientFake';
 
 
-const loadProjectsSuccess = (projects) => ({
-  type: types.PROJECT_PAGE_LOAD_PROJECTS_SUCCESS,
+const loadCareerProjectsSuccess = (projects) => ({
+  type: types.PROJECT_PAGE_LOAD_CAREER_PROJECTS_SUCCESS,
   projects
 });
 
-export const loadProjects = () =>
+const loadPetProjectsSuccess = (projects) => ({
+  type: types.PROJECT_PAGE_LOAD_PET_PROJECTS_SUCCESS,
+  projects
+});
+
+const loadProjects = (getFunction, action) =>
   (dispatch) => {
-    return projectsClient.getProjects().then((projects) => {
-      dispatch(loadProjectsSuccess(projects));
+    return getFunction().then((projects) => {
+      dispatch(action(projects));
     }).catch(error => {
       throw(error);
     });
   };
+
+export const loadCareerProjects = () =>
+  loadProjects(projectsServiceClientFake.getCareerProjects,
+    loadCareerProjectsSuccess);
+
+export const loadPetProjects = () =>
+  loadProjects(projectsServiceClientFake.getPetProjects,
+    loadPetProjectsSuccess);

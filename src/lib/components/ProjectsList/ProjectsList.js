@@ -8,5 +8,5 @@ const renderProjectDetails = (project) =>
 
 export const ProjectsList = ({projects}) =>
   <ul className="list-unstyled">
-    {projects.map(renderProjectDetails)}
+    {projects && projects.map(renderProjectDetails)}
   </ul>;
