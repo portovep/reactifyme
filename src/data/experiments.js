@@ -1,4 +1,4 @@
-export const petProjects = [
+export const experiments = [
   {
     id: 10,
     name: "Cloujera",

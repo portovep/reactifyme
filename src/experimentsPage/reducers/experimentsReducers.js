@@ -1,12 +1,12 @@
 import * as types from '../actions/actionTypes';
 
-export const projectsReducer = (state = {}, action) => {
+export const experimentsReducer = (state = {}, action) => {
 
   switch(action.type) {
-    case types.PROJECT_PAGE_LOAD_CAREER_PROJECTS_SUCCESS:
+    case types.EXERIMENTS_PAGE_LOAD_EXPERIMENTS_SUCCESS:
       return {
         ...state,
-        careerProjects: action.projects
+        experiments: action.experiments
       };
 
     default:

@@ -1,5 +1,5 @@
 import {projects} from '../data/projects';
-import {petProjects} from '../data/petProjects';
+import {experiments} from '../data/experiments';
 
 
 const RESPONSE_DELAY = 1;
@@ -14,5 +14,5 @@ const fakeGetData = (data) => {
 
 export const projectsServiceClientFake = {
   getCareerProjects: () => fakeGetData(projects),
-  getPetProjects: () => fakeGetData(petProjects)
+  getExperiments: () => fakeGetData(experiments)
 };

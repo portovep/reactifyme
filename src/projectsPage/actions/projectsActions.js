@@ -7,24 +7,12 @@ const loadCareerProjectsSuccess = (projects) => ({
   projects
 });
 
-const loadPetProjectsSuccess = (projects) => ({
-  type: types.PROJECT_PAGE_LOAD_PET_PROJECTS_SUCCESS,
-  projects
-});
-
-const loadProjects = (getFunction, action) =>
-  (dispatch) => {
-    return getFunction().then((projects) => {
-      dispatch(action(projects));
-    }).catch(error => {
-      throw(error);
-    });
-  };
-
 export const loadCareerProjects = () =>
-  loadProjects(projectsServiceClientFake.getCareerProjects,
-    loadCareerProjectsSuccess);
-
-export const loadPetProjects = () =>
-  loadProjects(projectsServiceClientFake.getPetProjects,
-    loadPetProjectsSuccess);
+  (dispatch) => {
+    return projectsServiceClientFake.getCareerProjects()
+      .then((projects) => {
+        dispatch(loadCareerProjectsSuccess(projects));
+      }).catch(error => {
+        throw (error);
+      });
+  };

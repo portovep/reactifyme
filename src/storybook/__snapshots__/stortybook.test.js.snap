@@ -111,6 +111,16 @@ exports[`Snapshot tests Navigation default 1`] = `
             Projects
           </a>
         </li>
+        <li>
+          <a
+            id="experiments-nav-button"
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Experiments
+          </a>
+        </li>
       </ul>
     </div>
   </div>
@@ -148,6 +158,16 @@ exports[`Snapshot tests Pages App Layout 1`] = `
             style={Object {}}
           >
             Projects
+          </a>
+        </li>
+        <li>
+          <a
+            id="experiments-nav-button"
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Experiments
           </a>
         </li>
       </ul>
@@ -346,20 +366,6 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
       <div
         className="row projects-page"
       >
-        <div>
-          <button
-            className="btn"
-            onClick={[Function]}
-          >
-            Career projects
-          </button>
-          <button
-            className="btn"
-            onClick={[Function]}
-          >
-            Pet projects
-          </button>
-        </div>
         <ul
           className="list-unstyled"
         >

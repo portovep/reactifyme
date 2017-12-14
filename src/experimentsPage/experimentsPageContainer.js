@@ -1,8 +1,8 @@
 import {connect} from 'react-redux';
-import ProjectsPage from './ProjectsPage';
+import ProjectsPage from '../projectsPage/ProjectsPage';
 
 const mapStateToProps = (state) => ({
-  projects: state.projectsPage.careerProjects
+  projects: state.experimentsPage.experiments
 });
 
 export default connect(mapStateToProps)(ProjectsPage);
