@@ -1,8 +1,8 @@
 export const projects = [
   {
-    id: 4,
+    id: 5,
     name: "Loan assessment platform",
-    date: 2016,
+    date: 2017,
     description: "<p>Pablo was assigned as a fullstack engineer to help evolving a loans assessment platform for the government. " +
     "In his role, Pablo contributed to bring the platform into production by:</p>" +
     "<ul>" +
@@ -15,6 +15,22 @@ export const projects = [
     "</ul>",
     teamSize: 20,
     technologies: "React, Redux, ES6, Clojure, Java 8, RabbitMQ, GoCD",
+  },
+  {
+    id: 4,
+    name: "Private PaaS for a bank",
+    date: 2016,
+    description: "<p>Pablo was assigned as a platform engineer to build a custom PaaS solution for one of the biggest banks in Spain. The PaaS was built using Openshift/Kubernetes and deployed on top of AWS first and then OpenStack. The goals were to minimise the time to market of the different digital services the bank offers, reduce costs and improve the developer experience. In his role, Pablo contributed to the platform by:</p>" +
+    "<ul>" +
+    "<li>Deploying a scalable and reliable Openshift/Kubernetes cluster in AWS using Terraform, Ansible and ConcourseCI.</li>" +
+    "<li>Designing and implementing multi-region and multi-AZ network topologies in AWS to meet scalability and resilience requirements.</li>" +
+    "<li>Deploying a scalable and reliable Openshift/Kubernetes cluster in OpenStack using Terraform, Ansible and ConcourseCI.</li>" +
+    "<li>Automation of deployment, infrastructure testing (serverspec) and pipelines as code tasks using Rake and Ruby.</li>" +
+    "<li>Helping with the design and implementation of a continuous delivery pipeline for infrastructure changes using ConcourseCI.</li>" +
+    "<li>Advocating for DevOps principles and practices across product and platform teams.</li>" +
+    "</ul>",
+    teamSize: 7,
+    technologies: "Kubernetes, Ansible, Terraform, Openshift, AWS, Openstack, ELK, ConcourseCI, RHEL/Fedora, Rake/Ruby",
   },
   {
     id: 3,
