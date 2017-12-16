@@ -9,5 +9,5 @@ export const PersonalStatement = ({title, statement}) =>
     <p className="personal-statement__title text-center">
       <strong>{title}</strong>
     </p>
-    <div dangerouslySetInnerHTML={htmlForReact(statement)}/>
+    <div className="personal-statement__statement" dangerouslySetInnerHTML={htmlForReact(statement)}/>
   </div>;
