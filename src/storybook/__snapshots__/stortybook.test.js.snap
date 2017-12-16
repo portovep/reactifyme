@@ -1779,7 +1779,7 @@ exports[`Snapshot tests Project Team Size with 2 team members 1`] = `
 </dl>
 `;
 
-exports[`Snapshot tests Project Team Size with 6 team members 1`] = `
+exports[`Snapshot tests Project Team Size with 4 team members 1`] = `
 <dl
   className="dl-horizontal"
 >
@@ -1820,6 +1820,20 @@ exports[`Snapshot tests Project Team Size with 6 team members 1`] = `
           }
         }
       />
+    </dd>
+  </div>
+</dl>
+`;
+
+exports[`Snapshot tests Project Team Size with 5 team members 1`] = `
+<dl
+  className="dl-horizontal"
+>
+  <div>
+    <dt>
+      Team
+    </dt>
+    <dd>
       <i
         className="fa fa-user"
         style={
@@ -1828,6 +1842,25 @@ exports[`Snapshot tests Project Team Size with 6 team members 1`] = `
           }
         }
       />
+       
+      <span>
+        x 
+        5
+      </span>
+    </dd>
+  </div>
+</dl>
+`;
+
+exports[`Snapshot tests Project Team Size with 20 team members 1`] = `
+<dl
+  className="dl-horizontal"
+>
+  <div>
+    <dt>
+      Team
+    </dt>
+    <dd>
       <i
         className="fa fa-user"
         style={
@@ -1836,6 +1869,11 @@ exports[`Snapshot tests Project Team Size with 6 team members 1`] = `
           }
         }
       />
+       
+      <span>
+        x 
+        20
+      </span>
     </dd>
   </div>
 </dl>

@@ -11,11 +11,20 @@ const displayTeamMember = (idx) =>
                    styles={styles}/>;
 
 const displayTeamMembers = (teamSize) =>
-  Array.from({length: teamSize}, (v, i) => i)
-    .map((idx) => displayTeamMember(idx));
+  <dd>
+    {Array.from({length: teamSize}, (v, i) => i)
+      .map((idx) => displayTeamMember(idx))}
+  </dd>;
+
+const displayTeamMembersCount = (teamSize) =>
+  <dd>
+    {displayTeamMember(0)} <span>x {teamSize}</span>
+  </dd>;
 
 export const ProjectTeamSize = ({size}) =>
   <div>
     <dt>Team</dt>
-    <dd>{displayTeamMembers(size)}</dd>
+    {size < 5 ? 
+      displayTeamMembers(size) : 
+      displayTeamMembersCount(size)}
   </div>;

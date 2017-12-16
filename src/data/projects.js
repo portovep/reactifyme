@@ -13,7 +13,7 @@ export const projects = [
     "<li>Implementing different asynchronous integration patterns between microservices (choreography/orchestration) using RabbitMQ.</li>" +
     "<li>Acting as an internal tech lead for one of the teams and helping the team to adopt TDD, pair programming, continuous delivery and feedback practices.</li>" +
     "</ul>",
-    teamSize: 20,
+    teamSize: 12,
     technologies: "React, Redux, ES6, Clojure, Java 8, RabbitMQ, GoCD",
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     "<li>Enabling zero down time deployments and autoscaling.</li>" +
     "<li>Advocating for DevOps principles and practices across product and platform teams.</li>" +
     "</ul>",
-    teamSize: 20,
+    teamSize: 4,
     technologies: "Terraform, Puppet, EC2, S3, CloudFront, RDS, KMS, IAM, ElastiCache, CodeDeploy, Jenkins",
   },
   {

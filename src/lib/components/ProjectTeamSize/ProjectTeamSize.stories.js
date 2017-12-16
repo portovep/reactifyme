@@ -9,6 +9,12 @@ storiesOf('Project Team Size', module)
   .add('with 2 team members', () => (
     <ProjectTeamSize size={2} />
   ))
-  .add('with 6 team members', () => (
-    <ProjectTeamSize size={6} />
+  .add('with 4 team members', () => (
+    <ProjectTeamSize size={4} />
+  ))
+  .add('with 5 team members', () => (
+    <ProjectTeamSize size={5} />
+  ))
+  .add('with 20 team members', () => (
+    <ProjectTeamSize size={20} />
   ));
