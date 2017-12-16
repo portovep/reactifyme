@@ -19,6 +19,10 @@ class AppPageObject extends BasePageObject {
     return this._clickOnButton('#projects-nav-button');
   }
 
+  navigateToExperimentsPage() {
+    return this._clickOnButton('#experiments-nav-button');
+  }
+
   getProjects() {
     return this.wrapper.find('.project-details');
   }

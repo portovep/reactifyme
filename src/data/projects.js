@@ -1,13 +1,30 @@
 export const projects = [
   {
-    id: 103,
+    id: 4,
+    name: "Loan assessment platform",
+    date: 2016,
+    description: "<p>Pablo was assigned as a fullstack engineer to help evolving a loans assessment platform for the government. " +
+    "In his role, Pablo contributed to bring the platform into production by:</p>" +
+    "<ul>" +
+    "<li>Leading the design and implementation of a SPA application using React/Redux/ES6.</li>" +
+    "<li>Leading the effort to introduce a shared design system and react component library to enable the different teams to deliver UI functionality faster.</li>" +
+    "<li>Extending the functionality of Clojure and Java microservices to support new types of products/loans.</li>" +
+    "<li>Introducing pipelines as code for GoCD to teams to create new microservices faster.</li>" +
+    "<li>Implementing different asynchronous integration patterns between microservices (choreography/orchestration) using RabbitMQ.</li>" +
+    "<li>Acting as an internal tech lead for one of the teams and helping the team to adopt TDD, pair programming, continuous delivery and feedback practices.</li>" +
+    "</ul>",
+    teamSize: 20,
+    technologies: "React, Redux, ES6, Clojure, Java 8, RabbitMQ, GoCD",
+  },
+  {
+    id: 3,
     name: "Digital membership cloud platform",
     date: 2016,
     description: "<p>Pablo was assigned as a software consultant to help reduce the gap and bring together the " +
     "development and platform teams within a programme to replatform and rebuild a digital membership service for a " +
     "big company in the retail industry. In his role, Pablo contributed to bring the platform into production by:</p>" +
-    "<p>Helping with the design and implementation of a continuous delivery pipeline using Jenkins.</p>" +
     "<ul>" +
+    "<li>Helping with the design and implementation of a continuous delivery pipeline using Jenkins.</li>" +
     "<li>Advising and helping the development teams to build self-deployable microservices. Removing coupling " +
     "between the apps (Dropwizard) and the platform.</li>" +
     "<li>Building a robust and scalable platform on AWS using EC2, S3, CloudFront, RDS, KMS, IAM, ElastiCache, " +
@@ -22,7 +39,7 @@ export const projects = [
     technologies: "Terraform, Puppet, EC2, S3, CloudFront, RDS, KMS, IAM, ElastiCache, CodeDeploy, Jenkins",
   },
   {
-    id: 102,
+    id: 2,
     name: "Mobile web application and platform",
     date: 2015,
     description: "<p>Pablo was assigned as a full stack developer to deliver a custom mobile web application for a " +
@@ -42,7 +59,7 @@ export const projects = [
     technologies: "React/Redux, HTML5, SASS, Java, GoCD, Kubernetes, Docker, Google Cloud"
   },
   {
-    id: 101,
+    id: 1,
     name: "Custom CMS",
     date: 2014,
     description: "<p>Pablo was assigned as a full-stack developer to deliver and operate a custom content-management " +

@@ -12,7 +12,7 @@ const styles = {
 
 export const ProjectInfoPanel = ({project}) =>
   <div>
-    <div className="col-md-10"
+    <div className={project.links && project.links.length ? "col-md-10" : "col-md-12"}
          style={styles}>
       <div dangerouslySetInnerHTML={htmlForReact(project.description)}/>
       <dl className="dl-horizontal">
