@@ -13,23 +13,25 @@ while having a playground to practice modern frontend development.
 To run all the tests
 
 ``` bash
-$ npm test
+$ yarn test
 ```
 
 
 To run the service locally on port 3000
 
 ``` bash
-$ npm start
+$ yarn start
 ```
 
 To build the app for production
 
 ``` bash
-$ npm run build
+$ yarn build
 ```
 
 ## Deployment
+
+The deploy script deploys the app to Firebase. You need a Firebase account if you want to use the script.
 
 ``` bash
 $ ./deploy.sh
@@ -47,7 +49,7 @@ $ firebase login
 To run the component library
 
 ``` bash
-$ npm run storybook
+$ yarn run storybook
 ```
 
 Then go to:

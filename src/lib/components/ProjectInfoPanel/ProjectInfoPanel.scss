@@ -1,4 +1,13 @@
-.project-info-panel__links-container {
-  padding-left: 0 !important;
-  padding-right: 1% !important;
+@import "styles/_media_queries.scss";
+
+.project-info-panel {
+  
+  .project-info-panel__project-description { 
+    margin-bottom: 8px;
+  }
+  
+  .project-info-panel__links-container {
+    padding-left: 0 !important;
+    padding-right: 1% !important;
+  }
 }

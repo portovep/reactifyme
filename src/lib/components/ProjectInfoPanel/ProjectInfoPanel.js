@@ -11,10 +11,11 @@ const styles = {
 };
 
 export const ProjectInfoPanel = ({project}) =>
-  <div>
+  <div className="project-info-panel">
     <div className={project.links && project.links.length ? "col-md-10" : "col-md-12"}
          style={styles}>
-      <div dangerouslySetInnerHTML={htmlForReact(project.description)}/>
+      <div className="project-info-panel__project-description"
+           dangerouslySetInnerHTML={htmlForReact(project.description)}/>
       <dl className="dl-horizontal">
         <ProjectTeamSize size={project.teamSize} />
         <ProjectTechnologies technologies={project.technologies} />

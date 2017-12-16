@@ -9,7 +9,7 @@ export const projects = [
     "<li>Leading the design and implementation of a SPA application using React/Redux/ES6.</li>" +
     "<li>Leading the effort to introduce a shared design system and react component library to enable the different teams to deliver UI functionality faster.</li>" +
     "<li>Extending the functionality of Clojure and Java microservices to support new types of products/loans.</li>" +
-    "<li>Introducing pipelines as code for GoCD to teams to create new microservices faster.</li>" +
+    "<li>Introducing pipelines as code to enable different teams to create new microservices faster.</li>" +
     "<li>Implementing different asynchronous integration patterns between microservices (choreography/orchestration) using RabbitMQ.</li>" +
     "<li>Acting as an internal tech lead for one of the teams and helping the team to adopt TDD, pair programming, continuous delivery and feedback practices.</li>" +
     "</ul>",
