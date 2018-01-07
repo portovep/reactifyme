@@ -1,7 +1,10 @@
 # Reactifyme
 
-A simple React/Redux web app that helps you build your digital presence
-while having a playground to practice modern frontend development.
+A simple React/Redux web app that helps you build your digital presence while having a playground to practice modern frontend development.
+
+I built Reactifyme while I was migrating my personal website to React. You can see it live (hopelly!) in [pabloporto.me](https://pabloporto.me).
+
+You can even explore all the reusable React components created as part of Reactifyme in [pabloporto.me/storybook](https://pabloporto.me/storybook).
 
 ## Requirements
 
@@ -37,7 +40,7 @@ The deploy script deploys the app to Firebase. You need a Firebase account if yo
 $ ./deploy.sh
 ```
 
-> Note: Requires to setup firebase-cli for
+> Note: You need to setup firebase-cli to use the
 [Firebase Hosting service](https://firebase.google.com/docs/hosting/quickstart).
 Before running the script for the first time you need to login.
 ``` bash
@@ -45,8 +48,9 @@ $ firebase login
 ```
 
 ## UI Component library
+Reactifyme was created using Storybook.js, a component explorer library for React. 
 
-To run the component library
+You can explore all the reusable components running the component library.
 
 ``` bash
 $ yarn run storybook
@@ -55,6 +59,23 @@ $ yarn run storybook
 Then go to:
 
 [http://localhost:9001](http://localhost:9001)
+
+## Customizing Reactifyme with your own content
+All the content, including page metadata and profile pictures, is consumed as static JSON data that is stored in src/data.
+
+If you want to use Reactifyme, you just have to change the content of the data files with the ones you like.
+
+## Contributions
+Contributions are welcome! Keep in mind that the motivation behind Reactifyme is just to be a playground for people that want to learn React/Redux while building their personal website. 
+
+If what you are looking for is to generate your own website using a mature React static site generator, you may want to look at Next.js
+
+That said, these are some ideas of things that can be improved:
+* Add linting stage in the build, ESlint?
+* Add prettier for ensure code formatting consistency
+* Change stored content format from JSON to markdown.
+* Make Reactifyme a PWA
+* Add useful plugins to Storybook.js (e.g. addon-info)
 
 ## SEO
 To enable Google Analytics on production:
