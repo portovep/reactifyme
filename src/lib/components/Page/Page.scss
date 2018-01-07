@@ -1,0 +1,9 @@
+@import "styles/_media_queries.scss";
+
+.page {
+
+  @include media-query-desk {
+    margin-top: 10%;
+    margin-bottom: 7%;
+  }
+}

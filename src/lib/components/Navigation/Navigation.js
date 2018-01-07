@@ -27,4 +27,11 @@ export const Navigation = () =>
             activeClassName="active">Experiments
       </Link>
     </li>
+    <li>
+      <Link to="/articles"
+            role="button"
+            id="articles-nav-button"
+            activeClassName="active">Articles
+      </Link>
+    </li>
   </ul>;

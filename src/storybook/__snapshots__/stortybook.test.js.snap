@@ -121,7 +121,46 @@ exports[`Snapshot tests Navigation default 1`] = `
             Experiments
           </a>
         </li>
+        <li>
+          <a
+            id="articles-nav-button"
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Articles
+          </a>
+        </li>
       </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshot tests Page default 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-8"
+    >
+      <div
+        className="row page"
+        id="test-page"
+      >
+        <div
+          className="col-md-12"
+        >
+          <div>
+            <p>
+              This is the content of a fake page
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -168,6 +207,16 @@ exports[`Snapshot tests Pages App Layout 1`] = `
             style={Object {}}
           >
             Experiments
+          </a>
+        </li>
+        <li>
+          <a
+            id="articles-nav-button"
+            onClick={[Function]}
+            role="button"
+            style={Object {}}
+          >
+            Articles
           </a>
         </li>
       </ul>
@@ -226,6 +275,7 @@ exports[`Snapshot tests Pages Home Page 1`] = `
                 </strong>
               </p>
               <div
+                className="personal-statement__statement"
                 dangerouslySetInnerHTML={
                   Object {
                     "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
@@ -431,7 +481,9 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                           id="#info-fake project 2"
                           role="tabpanel"
                         >
-                          <div>
+                          <div
+                            className="project-info-panel"
+                          >
                             <div
                               className="col-md-10"
                               style={
@@ -441,6 +493,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                               }
                             >
                               <div
+                                className="project-info-panel__project-description"
                                 dangerouslySetInnerHTML={
                                   Object {
                                     "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
@@ -612,7 +665,9 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                           id="#info-fake project 1"
                           role="tabpanel"
                         >
-                          <div>
+                          <div
+                            className="project-info-panel"
+                          >
                             <div
                               className="col-md-10"
                               style={
@@ -622,6 +677,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                               }
                             >
                               <div
+                                className="project-info-panel__project-description"
                                 dangerouslySetInnerHTML={
                                   Object {
                                     "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
@@ -742,6 +798,7 @@ exports[`Snapshot tests Personal Information Panel default 1`] = `
             </strong>
           </p>
           <div
+            className="personal-statement__statement"
             dangerouslySetInnerHTML={
               Object {
                 "__html": "<p>As a {ENTER COOL TITLE HERE}, my primary interest lies in the field of new javascript frameworks and hipster development tools</p><p>In particular, I am driven by the desire of creating great software that exploits the power of {LATEST JAVASCRIPT FRAMEWORK NAME} in new and creative ways.</p>",
@@ -786,6 +843,7 @@ exports[`Snapshot tests Personal statement default 1`] = `
           </strong>
         </p>
         <div
+          className="personal-statement__statement"
           dangerouslySetInnerHTML={
             Object {
               "__html": "<p>As a {ENTER COOL TITLE HERE}, my primary interest lies in the field of new javascript frameworks and hipster development tools</p><p>In particular, I am driven by the desire of creating great software that exploits the power of {LATEST JAVASCRIPT FRAMEWORK NAME} in new and creative ways.</p>",
@@ -889,7 +947,9 @@ exports[`Snapshot tests Project Details default 1`] = `
                     id="#info-fake project 2"
                     role="tabpanel"
                   >
-                    <div>
+                    <div
+                      className="project-info-panel"
+                    >
                       <div
                         className="col-md-10"
                         style={
@@ -899,6 +959,7 @@ exports[`Snapshot tests Project Details default 1`] = `
                         }
                       >
                         <div
+                          className="project-info-panel__project-description"
                           dangerouslySetInnerHTML={
                             Object {
                               "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
@@ -1181,7 +1242,9 @@ exports[`Snapshot tests Project Information Panel default 1`] = `
     <div
       className="col-md-8"
     >
-      <div>
+      <div
+        className="project-info-panel"
+      >
         <div
           className="col-md-10"
           style={
@@ -1191,6 +1254,7 @@ exports[`Snapshot tests Project Information Panel default 1`] = `
           }
         >
           <div
+            className="project-info-panel__project-description"
             dangerouslySetInnerHTML={
               Object {
                 "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
@@ -1461,7 +1525,9 @@ exports[`Snapshot tests Project List default 1`] = `
                         id="#info-fake project 2"
                         role="tabpanel"
                       >
-                        <div>
+                        <div
+                          className="project-info-panel"
+                        >
                           <div
                             className="col-md-10"
                             style={
@@ -1471,6 +1537,7 @@ exports[`Snapshot tests Project List default 1`] = `
                             }
                           >
                             <div
+                              className="project-info-panel__project-description"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
@@ -1642,7 +1709,9 @@ exports[`Snapshot tests Project List default 1`] = `
                         id="#info-fake project 1"
                         role="tabpanel"
                       >
-                        <div>
+                        <div
+                          className="project-info-panel"
+                        >
                           <div
                             className="col-md-10"
                             style={
@@ -1652,6 +1721,7 @@ exports[`Snapshot tests Project List default 1`] = `
                             }
                           >
                             <div
+                              className="project-info-panel__project-description"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",

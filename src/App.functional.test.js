@@ -9,7 +9,8 @@ import { AppPageObject } from './App.page';
 import { bio } from './data/bio';
 import { projects } from './data/projects';
 import { experiments } from './data/experiments';
-
+import { articles } from './data/articles';
+import { loadArticles } from './articlesPage/actions/articlesActions';
 
 describe('Reactifyme', () => {
   let appPage;
@@ -18,6 +19,7 @@ describe('Reactifyme', () => {
     const store = configureStore();
     store.dispatch(loadCareerProjects());
     store.dispatch(loadExperiments());
+    store.dispatch(loadArticles());
 
     const app = mount(
       <Provider store={store}>
@@ -27,7 +29,7 @@ describe('Reactifyme', () => {
     appPage = new AppPageObject(app);
   });
 
-  test('user visits homepage and navigates to projects and experiments page', async () => {
+  test('user visits homepage and navigates to projects, experiments and articles page', async () => {
     expect(appPage.getPersonalStatementTitle().text()).toEqual(bio.personalStatement.title);
 
     expect(appPage.getProjectsNavButton().text()).toEqual('Projects');
@@ -40,5 +42,10 @@ describe('Reactifyme', () => {
 
     expect(appPage.getProjects().length).toEqual(experiments.length);
     expect(appPage.getProjects().first().prop('id')).toEqual(experiments[0].name);
+
+    await appPage.navigateToArticlesPage();
+
+    expect(appPage.getArticles().length).toEqual(articles.length);
+    expect(appPage.getArticles().first().childAt(0).text()).toEqual(articles[0].title);
   });
 });

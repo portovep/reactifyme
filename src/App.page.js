@@ -23,8 +23,16 @@ class AppPageObject extends BasePageObject {
     return this._clickOnButton('#experiments-nav-button');
   }
 
+  navigateToArticlesPage() {
+    return this._clickOnButton('#articles-nav-button');
+  }
+
   getProjects() {
     return this.wrapper.find('.project-details');
+  }
+
+  getArticles() {
+    return this.wrapper.find('.article-details');
   }
 }
 

@@ -5,6 +5,7 @@ import configureStore from './store/configureStore'
 import {App} from './App';
 import {loadCareerProjects} from './projectsPage/actions/projectsActions';
 import {loadExperiments} from './experimentsPage/actions/experimentsActions';
+import {loadArticles} from './articlesPage/actions/articlesActions';
 import {configurePageViewLogger} from './pageViewLogger';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -15,6 +16,7 @@ const pageViewLogger = configurePageViewLogger();
 
 store.dispatch(loadExperiments());
 store.dispatch(loadCareerProjects());
+store.dispatch(loadArticles());
 
 ReactDOM.render(
   <Provider store={store}>

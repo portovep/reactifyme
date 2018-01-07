@@ -4,6 +4,7 @@ import {AppLayout} from './lib/components/index';
 import HomePage from './homePage/HomePage';
 import ProjectsPageContainer from './projectsPage/ProjectsPageContainer';
 import ExperimentsPageContainer from './experimentsPage/experimentsPageContainer';
+import ArticlesPageContainer from './articlesPage/ArticlesPageContainer';
 import NotFoundPage from './notFoundPage/NotFoundPage';
 
 import './App.css'
@@ -15,6 +16,7 @@ export const App = ({pageViewLogger}) =>
       <IndexRoute component={HomePage}/>
       <Route path="/projects" component={ProjectsPageContainer}/>
       <Route path="/experiments" component={ExperimentsPageContainer}/>
+      <Route path="/articles" component={ArticlesPageContainer}/>
       <Route path="*" component={NotFoundPage}/>
     </Route>
   </Router>;
