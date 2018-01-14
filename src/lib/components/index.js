@@ -2,6 +2,7 @@ import {AppLayout} from './AppLayout/AppLayout';
 import {ContactDetails} from './ContactDetails/ContactDetails';
 import {CurrentlyWorkingOn} from './CurrentlyWorkingOn/CurrentWorkingOn';
 import {Navigation} from './Navigation/Navigation';
+import {Page} from './Page/Page';
 import {PersonalInfoPanel} from './PersonalInfoPanel/PersonalInfoPanel';
 import {PersonalStatement} from './PersonalStatement/PersonalStatement';
 import {ProfilePicture} from './ProfilePicture/ProfilePicture';
@@ -21,6 +22,7 @@ export {
   ContactDetails,
   CurrentlyWorkingOn,
   Navigation,
+  Page,
   PersonalInfoPanel,
   PersonalStatement,
   ProfilePicture,

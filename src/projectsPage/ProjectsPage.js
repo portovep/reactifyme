@@ -1,21 +1,12 @@
 import React from 'react'
-import {Helmet} from 'react-helmet';
-import {ProjectsList} from "../lib/components/index";
+import {ProjectsList, Page} from "../lib/components/index";
 import {fakeProjectsPageMetadata} from '../data/fakeProjectsPageMetadata';
 
-import './ProjectsPage.css';
-
-const PageMetadata =
-  <Helmet>
-    <title>{fakeProjectsPageMetadata.title}</title>
-    <meta name="description"
-          content={fakeProjectsPageMetadata.description} />
-  </Helmet>;
 
 const ProjectsPage = ({projects}) =>
-  <div className="row projects-page">
-    {PageMetadata}
+  <Page id="projects-page"
+        pageMetadata={fakeProjectsPageMetadata}>
     <ProjectsList projects={projects}/>
-  </div>;
+  </Page>;
 
 export default ProjectsPage;

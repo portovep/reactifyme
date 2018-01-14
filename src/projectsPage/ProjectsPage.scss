@@ -1,9 +1,0 @@
-@import "styles/_media_queries.scss";
-
-.projects-page {
-
-  @include media-query-desk {
-    margin-top: 4%;
-    margin-bottom: 7%;
-  }
-}

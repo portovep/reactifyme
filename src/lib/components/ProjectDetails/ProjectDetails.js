@@ -5,8 +5,6 @@ import {ProjectInfoPanel} from '../index';
 import {ProjectImagesPanel} from '../index';
 import {ProjectHeader} from '../index';
 
-import './ProjectDetails.css';
-
 const projectHasImages = (project) => project.images && project.images.length > 0;
 
 export const ProjectDetails = ({project}) => {

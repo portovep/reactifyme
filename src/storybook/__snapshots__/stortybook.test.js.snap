@@ -248,103 +248,107 @@ exports[`Snapshot tests Pages Home Page 1`] = `
       className="col-md-8"
     >
       <div
-        className="row homepage"
+        className="row page"
         id="home"
       >
         <div
-          className="col-md-4"
+          className="col-md-12"
         >
-          <img
-            alt="Profile picture"
-            className="img-responsive img-circle profile-picture"
-            src="profile.jpg"
-          />
-        </div>
-        <div
-          className="col-md-8 homepage__right-column"
-        >
-          <div>
-            <div
-              className="lead personal-statement"
-            >
-              <p
-                className="personal-statement__title text-center"
-              >
-                <strong>
-                  PABLO PORTO
-                </strong>
-              </p>
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="Profile picture"
+              className="img-responsive img-circle profile-picture"
+              src="profile.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8 homepage__right-column"
+          >
+            <div>
               <div
-                className="personal-statement__statement"
+                className="lead personal-statement"
+              >
+                <p
+                  className="personal-statement__title text-center"
+                >
+                  <strong>
+                    PABLO PORTO
+                  </strong>
+                </p>
+                <div
+                  className="personal-statement__statement"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
+                    }
+                  }
+                />
+              </div>
+              <hr />
+              <div
+                className="text-muted currently-working-on"
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
+                    "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
                   }
                 }
               />
+              <hr />
             </div>
-            <hr />
             <div
-              className="text-muted currently-working-on"
-              dangerouslySetInnerHTML={
-                Object {
-                  "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
-                }
-              }
-            />
-            <hr />
-          </div>
-          <div
-            className="contact-details"
-          >
-            <ul
-              className="list-inline"
+              className="contact-details"
             >
-              <li>
-                <a
-                  href="https://linkedin.com/in/pabloportoveloso"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i
-                    className="fa fa-linkedin-square fa-2x"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/portovep"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i
-                    className="fa fa-github-square fa-2x"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/portovep"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i
-                    className="fa fa-twitter-square fa-2x"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="mailto:/portovep@tcd.ie"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i
-                    className="fa fa-envelope-square fa-2x"
-                  />
-                </a>
-              </li>
-            </ul>
+              <ul
+                className="list-inline"
+              >
+                <li>
+                  <a
+                    href="https://linkedin.com/in/pabloportoveloso"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="fa fa-linkedin-square fa-2x"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/portovep"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="fa fa-github-square fa-2x"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/portovep"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="fa fa-twitter-square fa-2x"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:/portovep@tcd.ie"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="fa fa-envelope-square fa-2x"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -364,38 +368,43 @@ exports[`Snapshot tests Pages Not Found Page 1`] = `
       className="col-md-8"
     >
       <div
-        className="row not-found-page"
+        className="row page"
+        id="not-found-page"
       >
         <div
-          className="col-md-8 col-md-offset-2"
-          style={
-            Object {
-              "marginTop": "7%",
-            }
-          }
+          className="col-md-12"
         >
-          <h1>
-            Ooops
-          </h1>
-          <p
-            className="lead"
+          <div
+            className="col-md-8 col-md-offset-2"
+            style={
+              Object {
+                "marginTop": "7%",
+              }
+            }
           >
-            The page you are looking for does not exist.
-          </p>
-          <hr />
-          <p>
-            <a
-              className="btn btn-success"
-              href="/"
-              role="button"
+            <h1>
+              Ooops
+            </h1>
+            <p
+              className="lead"
             >
-              <span
-                className="glyphicon glyphicon-home"
-              />
-               
-              Return to the home page
-            </a>
-          </p>
+              The page you are looking for does not exist.
+            </p>
+            <hr />
+            <p>
+              <a
+                className="btn btn-success"
+                href="/"
+                role="button"
+              >
+                <span
+                  className="glyphicon glyphicon-home"
+                />
+                 
+                Return to the home page
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -414,194 +423,199 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
       className="col-md-8"
     >
       <div
-        className="row projects-page"
+        className="row page"
+        id="projects-page"
       >
-        <ul
-          className="list-unstyled"
+        <div
+          className="col-md-12"
         >
-          <li>
-            <div
-              className="project-details"
-              id="Fake project 2"
-            >
+          <ul
+            className="list-unstyled"
+          >
+            <li>
               <div
-                className="page-header"
-                style={
-                  Object {
-                    "borderBottom": "none",
-                    "paddingBottom": "0px",
-                  }
-                }
-              >
-                <h1>
-                  Fake project 2
-                   
-                  <small>
-                    2014
-                  </small>
-                </h1>
-              </div>
-              <div
-                className="row"
+                className="project-details"
+                id="Fake project 2"
               >
                 <div
-                  className="col-md-12"
+                  className="page-header"
+                  style={
+                    Object {
+                      "borderBottom": "none",
+                      "paddingBottom": "0px",
+                    }
+                  }
                 >
-                  <div>
-                    <ul
-                      className="nav nav-tabs"
-                    >
-                      <li
-                        className="active"
-                        onClick={[Function]}
+                  <h1>
+                    Fake project 2
+                     
+                    <small>
+                      2014
+                    </small>
+                  </h1>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-12"
+                  >
+                    <div>
+                      <ul
+                        className="nav nav-tabs"
                       >
-                        <a
-                          href="#info-fake project 2"
+                        <li
+                          className="active"
+                          onClick={[Function]}
                         >
-                          Info
-                        </a>
-                      </li>
-                      <li
-                        className={null}
-                        onClick={[Function]}
+                          <a
+                            href="#info-fake project 2"
+                          >
+                            Info
+                          </a>
+                        </li>
+                        <li
+                          className={null}
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="#images-fake project 2"
+                          >
+                            Media
+                          </a>
+                        </li>
+                      </ul>
+                      <div
+                        className="tabs-container tab-content"
                       >
-                        <a
-                          href="#images-fake project 2"
-                        >
-                          Media
-                        </a>
-                      </li>
-                    </ul>
-                    <div
-                      className="tabs-container tab-content"
-                    >
-                      <div>
-                        <div
-                          className="tab-pane"
-                          id="#info-fake project 2"
-                          role="tabpanel"
-                        >
+                        <div>
                           <div
-                            className="project-info-panel"
+                            className="tab-pane"
+                            id="#info-fake project 2"
+                            role="tabpanel"
                           >
                             <div
-                              className="col-md-10"
-                              style={
-                                Object {
-                                  "paddingLeft": "1%",
-                                }
-                              }
+                              className="project-info-panel"
                             >
                               <div
-                                className="project-info-panel__project-description"
-                                dangerouslySetInnerHTML={
+                                className="col-md-10"
+                                style={
                                   Object {
-                                    "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
+                                    "paddingLeft": "1%",
                                   }
                                 }
-                              />
-                              <dl
-                                className="dl-horizontal"
                               >
-                                <div>
-                                  <dt>
-                                    Team
-                                  </dt>
-                                  <dd>
-                                    <i
-                                      className="fa fa-user"
-                                      style={
-                                        Object {
-                                          "padding": "1px",
-                                        }
-                                      }
-                                    />
-                                    <i
-                                      className="fa fa-user"
-                                      style={
-                                        Object {
-                                          "padding": "1px",
-                                        }
-                                      }
-                                    />
-                                  </dd>
-                                </div>
-                                <div>
-                                  <dt>
-                                    Technologies
-                                  </dt>
-                                  <dd>
-                                    Clojure, Compojure, ClojureScript, Om, ElasticSearch, Redis, Bootstrap
-                                  </dd>
-                                </div>
-                              </dl>
-                            </div>
-                            <div
-                              className="col-md-2 project-info-panel__links-container"
-                            >
-                              <div
-                                className="project-links"
-                              >
-                                <ul
-                                  className="list-unstyled"
+                                <div
+                                  className="project-info-panel__project-description"
+                                  dangerouslySetInnerHTML={
+                                    Object {
+                                      "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
+                                    }
+                                  }
+                                />
+                                <dl
+                                  className="dl-horizontal"
                                 >
-                                  <li>
-                                    <a
-                                      className="btn btn-default btn-sm"
-                                      href="#"
-                                      rel="noopener noreferrer"
-                                      role="button"
-                                      target="_blank"
-                                    >
-                                      <span
-                                        className="glyphicon glyphicon-new-window"
-                                      />
-                                       Demo
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a
-                                      className="btn btn-default btn-sm"
-                                      href="#"
-                                      rel="noopener noreferrer"
-                                      role="button"
-                                      target="_blank"
-                                    >
-                                      <span
-                                        className="glyphicon glyphicon-book"
-                                      />
-                                       Paper
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a
-                                      className="btn btn-default btn-sm"
-                                      href="#"
-                                      rel="noopener noreferrer"
-                                      role="button"
-                                      target="_blank"
-                                    >
+                                  <div>
+                                    <dt>
+                                      Team
+                                    </dt>
+                                    <dd>
                                       <i
-                                        className="fa fa-github fa-lg"
+                                        className="fa fa-user"
+                                        style={
+                                          Object {
+                                            "padding": "1px",
+                                          }
+                                        }
                                       />
-                                       Fork me
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a
-                                      className="btn btn-default btn-sm"
-                                      href="#"
-                                      rel="noopener noreferrer"
-                                      role="button"
-                                      target="_blank"
-                                    >
-                                      <span
-                                        className="glyphicon glyphicon-floppy-save"
+                                      <i
+                                        className="fa fa-user"
+                                        style={
+                                          Object {
+                                            "padding": "1px",
+                                          }
+                                        }
                                       />
-                                       Download
-                                    </a>
-                                  </li>
-                                </ul>
+                                    </dd>
+                                  </div>
+                                  <div>
+                                    <dt>
+                                      Technologies
+                                    </dt>
+                                    <dd>
+                                      Clojure, Compojure, ClojureScript, Om, ElasticSearch, Redis, Bootstrap
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+                              <div
+                                className="col-md-2 project-info-panel__links-container"
+                              >
+                                <div
+                                  className="project-links"
+                                >
+                                  <ul
+                                    className="list-unstyled"
+                                  >
+                                    <li>
+                                      <a
+                                        className="btn btn-default btn-sm"
+                                        href="#"
+                                        rel="noopener noreferrer"
+                                        role="button"
+                                        target="_blank"
+                                      >
+                                        <span
+                                          className="glyphicon glyphicon-new-window"
+                                        />
+                                         Demo
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a
+                                        className="btn btn-default btn-sm"
+                                        href="#"
+                                        rel="noopener noreferrer"
+                                        role="button"
+                                        target="_blank"
+                                      >
+                                        <span
+                                          className="glyphicon glyphicon-book"
+                                        />
+                                         Paper
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a
+                                        className="btn btn-default btn-sm"
+                                        href="#"
+                                        rel="noopener noreferrer"
+                                        role="button"
+                                        target="_blank"
+                                      >
+                                        <i
+                                          className="fa fa-github fa-lg"
+                                        />
+                                         Fork me
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a
+                                        className="btn btn-default btn-sm"
+                                        href="#"
+                                        rel="noopener noreferrer"
+                                        role="button"
+                                        target="_blank"
+                                      >
+                                        <span
+                                          className="glyphicon glyphicon-floppy-save"
+                                        />
+                                         Download
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -611,153 +625,153 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                   </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li>
-            <div
-              className="project-details"
-              id="Fake project 1"
-            >
+            </li>
+            <li>
               <div
-                className="page-header"
-                style={
-                  Object {
-                    "borderBottom": "none",
-                    "paddingBottom": "0px",
-                  }
-                }
-              >
-                <h1>
-                  Fake project 1
-                   
-                  <small>
-                    2011
-                  </small>
-                </h1>
-              </div>
-              <div
-                className="row"
+                className="project-details"
+                id="Fake project 1"
               >
                 <div
-                  className="col-md-12"
+                  className="page-header"
+                  style={
+                    Object {
+                      "borderBottom": "none",
+                      "paddingBottom": "0px",
+                    }
+                  }
                 >
-                  <div>
-                    <ul
-                      className="nav nav-tabs"
-                    >
-                      <li
-                        className="active"
-                        onClick={[Function]}
+                  <h1>
+                    Fake project 1
+                     
+                    <small>
+                      2011
+                    </small>
+                  </h1>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-12"
+                  >
+                    <div>
+                      <ul
+                        className="nav nav-tabs"
                       >
-                        <a
-                          href="#info-fake project 1"
+                        <li
+                          className="active"
+                          onClick={[Function]}
                         >
-                          Info
-                        </a>
-                      </li>
-                    </ul>
-                    <div
-                      className="tabs-container tab-content"
-                    >
-                      <div>
-                        <div
-                          className="tab-pane"
-                          id="#info-fake project 1"
-                          role="tabpanel"
-                        >
+                          <a
+                            href="#info-fake project 1"
+                          >
+                            Info
+                          </a>
+                        </li>
+                      </ul>
+                      <div
+                        className="tabs-container tab-content"
+                      >
+                        <div>
                           <div
-                            className="project-info-panel"
+                            className="tab-pane"
+                            id="#info-fake project 1"
+                            role="tabpanel"
                           >
                             <div
-                              className="col-md-10"
-                              style={
-                                Object {
-                                  "paddingLeft": "1%",
-                                }
-                              }
+                              className="project-info-panel"
                             >
                               <div
-                                className="project-info-panel__project-description"
-                                dangerouslySetInnerHTML={
+                                className="col-md-10"
+                                style={
                                   Object {
-                                    "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
+                                    "paddingLeft": "1%",
                                   }
                                 }
-                              />
-                              <dl
-                                className="dl-horizontal"
                               >
-                                <div>
-                                  <dt>
-                                    Team
-                                  </dt>
-                                  <dd>
-                                    <i
-                                      className="fa fa-user"
-                                      style={
-                                        Object {
-                                          "padding": "1px",
-                                        }
-                                      }
-                                    />
-                                    <i
-                                      className="fa fa-user"
-                                      style={
-                                        Object {
-                                          "padding": "1px",
-                                        }
-                                      }
-                                    />
-                                  </dd>
-                                </div>
-                                <div>
-                                  <dt>
-                                    Technologies
-                                  </dt>
-                                  <dd>
-                                    Fancy JS framework, Next Fancy JS framework
-                                  </dd>
-                                </div>
-                              </dl>
-                            </div>
-                            <div
-                              className="col-md-2 project-info-panel__links-container"
-                            >
-                              <div
-                                className="project-links"
-                              >
-                                <ul
-                                  className="list-unstyled"
+                                <div
+                                  className="project-info-panel__project-description"
+                                  dangerouslySetInnerHTML={
+                                    Object {
+                                      "__html": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
+                                    }
+                                  }
+                                />
+                                <dl
+                                  className="dl-horizontal"
                                 >
-                                  <li>
-                                    <a
-                                      className="btn btn-default btn-sm"
-                                      href="#"
-                                      rel="noopener noreferrer"
-                                      role="button"
-                                      target="_blank"
-                                    >
-                                      <span
-                                        className="glyphicon glyphicon-new-window"
+                                  <div>
+                                    <dt>
+                                      Team
+                                    </dt>
+                                    <dd>
+                                      <i
+                                        className="fa fa-user"
+                                        style={
+                                          Object {
+                                            "padding": "1px",
+                                          }
+                                        }
                                       />
-                                       Demo
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a
-                                      className="btn btn-default btn-sm"
-                                      href="https://google.com"
-                                      rel="noopener noreferrer"
-                                      role="button"
-                                      target="_blank"
-                                    >
-                                      <span
-                                        className="glyphicon glyphicon-floppy-save"
+                                      <i
+                                        className="fa fa-user"
+                                        style={
+                                          Object {
+                                            "padding": "1px",
+                                          }
+                                        }
                                       />
-                                       Download
-                                    </a>
-                                  </li>
-                                </ul>
+                                    </dd>
+                                  </div>
+                                  <div>
+                                    <dt>
+                                      Technologies
+                                    </dt>
+                                    <dd>
+                                      Fancy JS framework, Next Fancy JS framework
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+                              <div
+                                className="col-md-2 project-info-panel__links-container"
+                              >
+                                <div
+                                  className="project-links"
+                                >
+                                  <ul
+                                    className="list-unstyled"
+                                  >
+                                    <li>
+                                      <a
+                                        className="btn btn-default btn-sm"
+                                        href="#"
+                                        rel="noopener noreferrer"
+                                        role="button"
+                                        target="_blank"
+                                      >
+                                        <span
+                                          className="glyphicon glyphicon-new-window"
+                                        />
+                                         Demo
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a
+                                        className="btn btn-default btn-sm"
+                                        href="https://google.com"
+                                        rel="noopener noreferrer"
+                                        role="button"
+                                        target="_blank"
+                                      >
+                                        <span
+                                          className="glyphicon glyphicon-floppy-save"
+                                        />
+                                         Download
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -767,9 +781,9 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                   </div>
                 </div>
               </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

@@ -3,7 +3,7 @@ import {Route, IndexRoute, Router, browserHistory} from 'react-router';
 import {AppLayout} from './lib/components/index';
 import HomePage from './homePage/HomePage';
 import ProjectsPageContainer from './projectsPage/ProjectsPageContainer';
-import ExperimentsPageContainer from './experimentsPage/experimentsPageContainer';
+import ExperimentsPageContainer from './experimentsPage/ExperimentsPageContainer';
 import ArticlesPageContainer from './articlesPage/ArticlesPageContainer';
 import NotFoundPage from './notFoundPage/NotFoundPage';
 
