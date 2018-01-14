@@ -8,11 +8,11 @@ import {
 import {bio} from '../data/bio';
 import {profilePicture} from '../data/images';
 import {contactDetails} from '../data/contactDetails';
-import {fakeHomePageMetadata} from '../data/fakeHomePageMetadata';
+import {homePageMetadata} from '../data/homePageMetadata';
 
 const HomePage = () =>
   <Page id="home"
-        pageMetadata={fakeHomePageMetadata}
+        pageMetadata={homePageMetadata}
         classNames="homepage">
     <div className="col-md-4">
       <ProfilePicture picture={profilePicture} />

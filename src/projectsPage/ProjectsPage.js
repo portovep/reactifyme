@@ -1,11 +1,11 @@
 import React from 'react'
 import {ProjectsList, Page} from "../lib/components/index";
-import {fakeProjectsPageMetadata} from '../data/fakeProjectsPageMetadata';
+import {projectsPageMetadata} from '../data/projectsPageMetadata';
 
 
 const ProjectsPage = ({projects}) =>
   <Page id="projects-page"
-        pageMetadata={fakeProjectsPageMetadata}>
+        pageMetadata={projectsPageMetadata}>
     <ProjectsList projects={projects}/>
   </Page>;
 

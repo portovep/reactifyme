@@ -1,7 +1,7 @@
 import React from 'react'
 import {errorPageInfo} from '../data/errorPage';
 import {Page} from '../lib/components/index'
-import {fakeNotFoundPageMetadata} from '../data/fakeNotFoundPageMetadata';
+import {notFoundPageMetadata} from '../data/notFoundPageMetadata';
 
 const wrapperStyles = {
   marginTop: '7%'
@@ -9,7 +9,7 @@ const wrapperStyles = {
 
 const NotFoundPage = ({errorPageInfo}) =>
   <Page id="not-found-page"
-        pageMetadata={fakeNotFoundPageMetadata}>
+        pageMetadata={notFoundPageMetadata}>
     <div className="col-md-8 col-md-offset-2"
          style={wrapperStyles}>
       <h1>{errorPageInfo.headerText}</h1>
