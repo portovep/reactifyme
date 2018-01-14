@@ -82,10 +82,3 @@ To enable Google Analytics on production:
 * Set your tracking ID as the value of REACT_APP_GA_TRACKING_ID in .env.example
 * Rename .env.example to .env
 * Re-deploy the app
-
-## License
-
-Copyright © 2017
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
