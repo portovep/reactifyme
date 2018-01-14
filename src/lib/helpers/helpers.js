@@ -1,5 +1,3 @@
-
-
-export const htmlForReact = (html) => ({
-  __html: html,
+export const htmlForReact = html => ({
+  __html: html
 });

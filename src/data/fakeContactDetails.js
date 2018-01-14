@@ -1,4 +1,3 @@
-
 export const fakeContactDetails = [
   {
     type: 'linkedin',

@@ -1,7 +1,7 @@
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import ExperimentsPage from './ExperimentsPage';
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   experiments: state.experimentsPage.experiments
 });
 

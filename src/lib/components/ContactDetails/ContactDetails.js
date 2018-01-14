@@ -1,12 +1,12 @@
 import React from 'react';
-import {LinkedinHandle} from './Handles/LinkedinHandle';
-import {GithubHandle} from './Handles/GithubHandle';
-import {TwitterHandle} from './Handles/TwitterHandle';
-import {EmailHandle} from './Handles/EmailHandle';
+import { LinkedinHandle } from './Handles/LinkedinHandle';
+import { GithubHandle } from './Handles/GithubHandle';
+import { TwitterHandle } from './Handles/TwitterHandle';
+import { EmailHandle } from './Handles/EmailHandle';
 
-import './ContactDetails.css'
+import './ContactDetails.css';
 
-const displayContactDetail = ({type, handle}) => {
+const displayContactDetail = ({ type, handle }) => {
   switch (type) {
     case 'linkedin':
       return <LinkedinHandle handle={handle} />;
@@ -17,18 +17,16 @@ const displayContactDetail = ({type, handle}) => {
     case 'email':
       return <EmailHandle handle={handle} />;
     default:
-      console.error(`Contact detail type not found: ${type}`)
+      console.error(`Contact detail type not found: ${type}`);
   }
 };
 
-const ContactDetail = (contactDetail, idx) =>
-  <li key={idx}>
-    {displayContactDetail(contactDetail)}
-  </li>;
+const ContactDetail = (contactDetail, idx) => (
+  <li key={idx}>{displayContactDetail(contactDetail)}</li>
+);
 
-export const ContactDetails = ({contactDetails}) =>
+export const ContactDetails = ({ contactDetails }) => (
   <div className="contact-details">
-    <ul className="list-inline">
-      {contactDetails.map(ContactDetail)}
-    </ul>
-  </div>;
+    <ul className="list-inline">{contactDetails.map(ContactDetail)}</ul>
+  </div>
+);

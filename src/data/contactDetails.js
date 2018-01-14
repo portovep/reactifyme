@@ -1,4 +1,3 @@
-
 export const contactDetails = [
   {
     type: 'linkedin',

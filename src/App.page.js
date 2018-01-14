@@ -1,7 +1,6 @@
-import {BasePageObject} from './lib/helpers/BasePageObject.page';
+import { BasePageObject } from './lib/helpers/BasePageObject.page';
 
 class AppPageObject extends BasePageObject {
-
   constructor(wrapper) {
     super(wrapper);
     this.wrapper = wrapper;
@@ -36,4 +35,4 @@ class AppPageObject extends BasePageObject {
   }
 }
 
-export {AppPageObject};
+export { AppPageObject };

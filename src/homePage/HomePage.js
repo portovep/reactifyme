@@ -1,19 +1,17 @@
-import React from 'react'
+import React from 'react';
 import {
-  ProfilePicture, 
-  PersonalInfoPanel, 
-  ContactDetails, 
+  ProfilePicture,
+  PersonalInfoPanel,
+  ContactDetails,
   Page
 } from '../lib/components/index';
-import {bio} from '../data/bio';
-import {profilePicture} from '../data/images';
-import {contactDetails} from '../data/contactDetails';
-import {homePageMetadata} from '../data/homePageMetadata';
+import { bio } from '../data/bio';
+import { profilePicture } from '../data/images';
+import { contactDetails } from '../data/contactDetails';
+import { homePageMetadata } from '../data/homePageMetadata';
 
-const HomePage = () =>
-  <Page id="home"
-        pageMetadata={homePageMetadata}
-        classNames="homepage">
+const HomePage = () => (
+  <Page id="home" pageMetadata={homePageMetadata} classNames="homepage">
     <div className="col-md-4">
       <ProfilePicture picture={profilePicture} />
     </div>
@@ -21,6 +19,7 @@ const HomePage = () =>
       <PersonalInfoPanel bio={bio} />
       <ContactDetails contactDetails={contactDetails} />
     </div>
-  </Page>;
+  </Page>
+);
 
-export default HomePage
+export default HomePage;

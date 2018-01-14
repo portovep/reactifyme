@@ -1,8 +1,7 @@
 import * as types from '../actions/actionTypes';
 
 export const projectsReducer = (state = {}, action) => {
-
-  switch(action.type) {
+  switch (action.type) {
     case types.PROJECT_PAGE_LOAD_CAREER_PROJECTS_SUCCESS:
       return {
         ...state,

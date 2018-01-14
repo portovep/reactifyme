@@ -1,13 +1,13 @@
-import {articles} from '../data/articles';
+import { articles } from '../data/articles';
 
 const RESPONSE_DELAY = 1;
 
-const fakeGetData = (data) => {
-  return new Promise((resolve) => {
+const fakeGetData = data => {
+  return new Promise(resolve => {
     setTimeout(() => {
       resolve(data);
-    }, RESPONSE_DELAY)
-  })
+    }, RESPONSE_DELAY);
+  });
 };
 
 export const articlesServiceClientFake = {

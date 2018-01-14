@@ -1,7 +1,7 @@
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import ProjectsPage from './ProjectsPage';
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   projects: state.projectsPage.careerProjects
 });
 

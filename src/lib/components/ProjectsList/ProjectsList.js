@@ -1,12 +1,14 @@
 import React from 'react';
-import {ProjectDetails} from '../index';
+import { ProjectDetails } from '../index';
 
-const renderProjectDetails = (project) =>
+const renderProjectDetails = project => (
   <li key={project.id}>
-    <ProjectDetails project={project}/>
-  </li>;
+    <ProjectDetails project={project} />
+  </li>
+);
 
-export const ProjectsList = ({projects}) =>
+export const ProjectsList = ({ projects }) => (
   <ul className="list-unstyled">
     {projects && projects.map(renderProjectDetails)}
-  </ul>;
+  </ul>
+);
