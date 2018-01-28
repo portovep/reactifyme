@@ -2,7 +2,7 @@
 
 A simple React/Redux web app that helps you build your digital presence while having a playground to practice modern frontend development.
 
-I built Reactifyme while I was migrating my personal website to React. You can see it live (hopelly!) in [pabloporto.me](https://pabloporto.me).
+I built Reactifyme while I was migrating my personal website to React. You can see it live (I hope!) in [pabloporto.me](https://pabloporto.me).
 
 You can even explore all the reusable React components created as part of Reactifyme in [pabloporto.me/storybook](https://pabloporto.me/storybook).
 
