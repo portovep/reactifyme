@@ -13,7 +13,7 @@ const pageMetadataBuilder = pageMetadata => (
 const Page = ({ id, pageMetadata, children }) => (
   <div id={id} className="row page">
     {pageMetadataBuilder(pageMetadata)}
-    <div className="col-md-12">{children}</div>
+    {children}
   </div>
 );
 

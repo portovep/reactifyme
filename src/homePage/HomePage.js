@@ -10,9 +10,11 @@ import { profilePicture } from '../data/images';
 import { contactDetails } from '../data/contactDetails';
 import { homePageMetadata } from '../data/homePageMetadata';
 
+import './HomePage.css';
+
 const HomePage = () => (
-  <Page id="home" pageMetadata={homePageMetadata} classNames="homepage">
-    <div className="col-md-4">
+  <Page id="home" pageMetadata={homePageMetadata}>
+    <div className="col-md-4 homepage__left-column">
       <ProfilePicture picture={profilePicture} />
     </div>
     <div className="col-md-8 homepage__right-column">

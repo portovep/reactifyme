@@ -22,7 +22,7 @@ export const ProjectInfoPanel = ({ project }) => (
         className="project-info-panel__project-description"
         dangerouslySetInnerHTML={htmlForReact(project.description)}
       />
-      <dl className="dl-horizontal">
+      <dl className="dl-horizontal project-info-panel__details">
         <ProjectTeamSize size={project.teamSize} />
         <ProjectTechnologies technologies={project.technologies} />
       </dl>

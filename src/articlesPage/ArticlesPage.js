@@ -10,15 +10,17 @@ const articleDetails = ({ id, title, url }) => (
 
 export default ({ articles }) => (
   <Page id="articles-page" pageMetadata={articlesPageMetadata}>
-    <div className="page-header">
-      <h1>
-        Articles <small>Some articles I wrote</small>
-      </h1>
-    </div>
-    <div>
-      <ul>
-        {articles && articles.length ? articles.map(articleDetails) : null}
-      </ul>
+    <div className="col-md-12">
+      <div className="page-header">
+        <h1>
+          Articles <small>Some articles I wrote</small>
+        </h1>
+      </div>
+      <div>
+        <ul>
+          {articles && articles.length ? articles.map(articleDetails) : null}
+        </ul>
+      </div>
     </div>
   </Page>
 );

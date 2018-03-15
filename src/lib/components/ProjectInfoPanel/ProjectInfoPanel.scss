@@ -10,4 +10,12 @@
     padding-left: 0 !important;
     padding-right: 1% !important;
   }
+
+  .project-info-panel__details div {
+    margin-top: 10px;
+      
+    @include media-query-desk {
+      margin-top: 0;
+    }
+  }
 }

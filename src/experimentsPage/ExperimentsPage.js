@@ -4,7 +4,9 @@ import { experimentsPageMetadata } from '../data/experimentsPageMetadata';
 
 const ExperimentsPage = ({ experiments }) => (
   <Page id="experiments-page" pageMetadata={experimentsPageMetadata}>
-    <ProjectsList projects={experiments} />
+    <div className="col-md-12">
+      <ProjectsList projects={experiments} />
+    </div>
   </Page>
 );
 

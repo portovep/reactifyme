@@ -1,0 +1,8 @@
+@import "styles/_media_queries.scss";
+
+.homepage__left-column, .homepage__right-column {
+    margin-top: 15px;
+    @include media-query-desk {
+        margin-top: 0;
+      }
+}

@@ -151,14 +151,10 @@ exports[`Snapshot tests Page default 1`] = `
         className="row page"
         id="test-page"
       >
-        <div
-          className="col-md-12"
-        >
-          <div>
-            <p>
-              This is the content of a fake page
-            </p>
-          </div>
+        <div>
+          <p>
+            This is the content of a fake page
+          </p>
         </div>
       </div>
     </div>
@@ -252,103 +248,99 @@ exports[`Snapshot tests Pages Home Page 1`] = `
         id="home"
       >
         <div
-          className="col-md-12"
+          className="col-md-4 homepage__left-column"
         >
-          <div
-            className="col-md-4"
-          >
-            <img
-              alt="Profile picture"
-              className="img-responsive img-circle profile-picture"
-              src="profile.jpg"
-            />
-          </div>
-          <div
-            className="col-md-8 homepage__right-column"
-          >
-            <div>
-              <div
-                className="lead personal-statement"
+          <img
+            alt="Profile picture"
+            className="img-responsive img-circle profile-picture"
+            src="profile.jpg"
+          />
+        </div>
+        <div
+          className="col-md-8 homepage__right-column"
+        >
+          <div>
+            <div
+              className="lead personal-statement"
+            >
+              <p
+                className="personal-statement__title text-center"
               >
-                <p
-                  className="personal-statement__title text-center"
-                >
-                  <strong>
-                    PABLO PORTO
-                  </strong>
-                </p>
-                <div
-                  className="personal-statement__statement"
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
-                    }
-                  }
-                />
-              </div>
-              <hr />
+                <strong>
+                  PABLO PORTO
+                </strong>
+              </p>
               <div
-                className="text-muted currently-working-on"
+                className="personal-statement__statement"
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
+                    "__html": "<p>As a software engineer, my primary interest lies in the field of distributed systems and cross-platform applications.</p><p>In particular, I am driven by the desire of creating great software that exploits the power of human communication in new and creative ways.</p>",
                   }
                 }
               />
-              <hr />
             </div>
+            <hr />
             <div
-              className="contact-details"
+              className="text-muted currently-working-on"
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<p>I work as a Software Developer at <a href=\\"http://thoughtworks.com\\" target=\\"_blank\\">ThoughtWorks</a>. I feel very lucky spending most of my day with awesome people from all over the world who are really passionate about improving our society through technology.</p>",
+                }
+              }
+            />
+            <hr />
+          </div>
+          <div
+            className="contact-details"
+          >
+            <ul
+              className="list-inline"
             >
-              <ul
-                className="list-inline"
-              >
-                <li>
-                  <a
-                    href="https://linkedin.com/in/pabloportoveloso"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa fa-linkedin-square fa-2x"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/portovep"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa fa-github-square fa-2x"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/portovep"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa fa-twitter-square fa-2x"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="mailto:/portovep@tcd.ie"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i
-                      className="fa fa-envelope-square fa-2x"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <a
+                  href="https://linkedin.com/in/pabloportoveloso"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-linkedin-square fa-2x"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/portovep"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-github-square fa-2x"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/portovep"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-twitter-square fa-2x"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:/portovep@tcd.ie"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i
+                    className="fa fa-envelope-square fa-2x"
+                  />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -374,37 +366,28 @@ exports[`Snapshot tests Pages Not Found Page 1`] = `
         <div
           className="col-md-12"
         >
-          <div
-            className="col-md-8 col-md-offset-2"
-            style={
-              Object {
-                "marginTop": "7%",
-              }
-            }
+          <h1>
+            Ooops
+          </h1>
+          <p
+            className="lead"
           >
-            <h1>
-              Ooops
-            </h1>
-            <p
-              className="lead"
+            The page you are looking for does not exist.
+          </p>
+          <hr />
+          <p>
+            <a
+              className="btn btn-success"
+              href="/"
+              role="button"
             >
-              The page you are looking for does not exist.
-            </p>
-            <hr />
-            <p>
-              <a
-                className="btn btn-success"
-                href="/"
-                role="button"
-              >
-                <span
-                  className="glyphicon glyphicon-home"
-                />
-                 
-                Return to the home page
-              </a>
-            </p>
-          </div>
+              <span
+                className="glyphicon glyphicon-home"
+              />
+               
+              Return to the home page
+            </a>
+          </p>
         </div>
       </div>
     </div>
@@ -514,7 +497,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                                   }
                                 />
                                 <dl
-                                  className="dl-horizontal"
+                                  className="dl-horizontal project-info-panel__details"
                                 >
                                   <div>
                                     <dt>
@@ -698,7 +681,7 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
                                   }
                                 />
                                 <dl
-                                  className="dl-horizontal"
+                                  className="dl-horizontal project-info-panel__details"
                                 >
                                   <div>
                                     <dt>
@@ -981,7 +964,7 @@ exports[`Snapshot tests Project Details default 1`] = `
                           }
                         />
                         <dl
-                          className="dl-horizontal"
+                          className="dl-horizontal project-info-panel__details"
                         >
                           <div>
                             <dt>
@@ -1276,7 +1259,7 @@ exports[`Snapshot tests Project Information Panel default 1`] = `
             }
           />
           <dl
-            className="dl-horizontal"
+            className="dl-horizontal project-info-panel__details"
           >
             <div>
               <dt>
@@ -1559,7 +1542,7 @@ exports[`Snapshot tests Project List default 1`] = `
                               }
                             />
                             <dl
-                              className="dl-horizontal"
+                              className="dl-horizontal project-info-panel__details"
                             >
                               <div>
                                 <dt>
@@ -1743,7 +1726,7 @@ exports[`Snapshot tests Project List default 1`] = `
                               }
                             />
                             <dl
-                              className="dl-horizontal"
+                              className="dl-horizontal project-info-panel__details"
                             >
                               <div>
                                 <dt>

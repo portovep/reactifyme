@@ -3,13 +3,9 @@ import { errorPageInfo } from '../data/errorPage';
 import { Page } from '../lib/components/index';
 import { notFoundPageMetadata } from '../data/notFoundPageMetadata';
 
-const wrapperStyles = {
-  marginTop: '7%'
-};
-
 const NotFoundPage = ({ errorPageInfo }) => (
   <Page id="not-found-page" pageMetadata={notFoundPageMetadata}>
-    <div className="col-md-8 col-md-offset-2" style={wrapperStyles}>
+    <div className="col-md-12">
       <h1>{errorPageInfo.headerText}</h1>
       <p className="lead">{errorPageInfo.details}</p>
       <hr />
