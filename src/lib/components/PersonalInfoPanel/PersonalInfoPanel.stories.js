@@ -4,6 +4,6 @@ import { RightColumnDecorator } from '../../../storybook/helpers/decorators';
 import { fakeBio } from '../../../data/fakeBio';
 import { PersonalInfoPanel } from './PersonalInfoPanel';
 
-storiesOf('Personal Information Panel', module)
+storiesOf('Organisms/PersonalInfoPanel', module)
   .addDecorator(RightColumnDecorator)
   .add('default', () => <PersonalInfoPanel bio={fakeBio} />);

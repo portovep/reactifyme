@@ -4,6 +4,6 @@ import { LeftColumnDecorator } from '../../../storybook/helpers/decorators';
 import { fakeProfilePicture } from '../../../data/fakeImages';
 import { ProfilePicture } from './ProfilePicture';
 
-storiesOf('Profile Picture', module)
+storiesOf('Atoms/ProfilePicture', module)
   .addDecorator(LeftColumnDecorator)
   .add('default', () => <ProfilePicture picture={fakeProfilePicture} />);

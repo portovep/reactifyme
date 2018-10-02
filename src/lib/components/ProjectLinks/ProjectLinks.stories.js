@@ -4,6 +4,6 @@ import { fakeLinks } from '../../../data/fakeProjects';
 import { SmallColumnDecorator } from '../../../storybook/helpers/decorators';
 import { ProjectLinks } from './ProjectLinks';
 
-storiesOf('Project Links', module)
+storiesOf('Molecules/ProjectLinks', module)
   .addDecorator(SmallColumnDecorator)
   .add('default', () => <ProjectLinks links={fakeLinks} />);

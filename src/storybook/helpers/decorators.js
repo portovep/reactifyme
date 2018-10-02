@@ -20,6 +20,14 @@ export const SmallColumnDecorator = story => (
   </div>
 );
 
+export const MediumColumnDecorator = story => (
+  <div className="container">
+    <div className="row">
+      <div className="col-md-4">{story()}</div>
+    </div>
+  </div>
+);
+
 export const LeftColumnDecorator = story => (
   <div className="container">
     <div className="row">

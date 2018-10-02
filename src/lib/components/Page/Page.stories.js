@@ -8,7 +8,7 @@ const pageMetadata = {
   description: 'This is a test page'
 };
 
-storiesOf('Page', module)
+storiesOf('Organisms/Page', module)
   .addDecorator(RightColumnDecorator)
   .add('default', () => (
     <Page id="test-page" pageMetadata={pageMetadata}>

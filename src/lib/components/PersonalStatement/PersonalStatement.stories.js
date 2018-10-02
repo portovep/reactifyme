@@ -4,7 +4,7 @@ import { RightColumnDecorator } from '../../../storybook/helpers/decorators';
 import { fakeBio } from '../../../data/fakeBio';
 import { PersonalStatement } from './PersonalStatement';
 
-storiesOf('Personal statement', module)
+storiesOf('Molecules/PersonalStatement', module)
   .addDecorator(RightColumnDecorator)
   .add('default', () => (
     <PersonalStatement

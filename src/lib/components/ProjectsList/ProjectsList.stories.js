@@ -4,6 +4,6 @@ import { fakeProjects } from '../../../data/fakeProjects';
 import { RightColumnDecorator } from '../../../storybook/helpers/decorators';
 import { ProjectsList } from './ProjectsList';
 
-storiesOf('Project List', module)
+storiesOf('Organisms/ProjectList', module)
   .addDecorator(RightColumnDecorator)
   .add('default', () => <ProjectsList projects={fakeProjects} />);

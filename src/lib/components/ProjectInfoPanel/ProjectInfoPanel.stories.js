@@ -4,6 +4,6 @@ import { fakeProjects } from '../../../data/fakeProjects';
 import { RightColumnDecorator } from '../../../storybook/helpers/decorators';
 import { ProjectInfoPanel } from './ProjectInfoPanel';
 
-storiesOf('Project Information Panel', module)
+storiesOf('Molecules/ProjectInfoPanel', module)
   .addDecorator(RightColumnDecorator)
   .add('default', () => <ProjectInfoPanel project={fakeProjects[0]} />);
