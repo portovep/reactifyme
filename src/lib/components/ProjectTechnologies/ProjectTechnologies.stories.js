@@ -1,10 +1,10 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { ListDecorator } from '../../../storybook/helpers/decorators';
+import centered from '@storybook/addon-centered';
 import { ProjectTechnologies } from './ProjectTechnologies';
 
 storiesOf('Atoms/ProjectTechnologies', module)
-  .addDecorator(ListDecorator)
+  .addDecorator(centered)
   .add('default', () => (
     <ProjectTechnologies technologies="React, Redux, Docker, another buzzword" />
   ));

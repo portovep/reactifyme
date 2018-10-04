@@ -45,167 +45,291 @@ exports[`Snapshot tests Atoms/ProfilePicture default 1`] = `
 
 exports[`Snapshot tests Atoms/ProjectHeader default 1`] = `
 <div
-  className="page-header"
   style={
     Object {
-      "borderBottom": "none",
-      "paddingBottom": "0px",
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
     }
   }
 >
-  <h1>
-    Fake project 2
-     
-    <small>
-      2014
-    </small>
-  </h1>
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
+  >
+    <div
+      className="page-header"
+      style={
+        Object {
+          "borderBottom": "none",
+          "paddingBottom": "0px",
+        }
+      }
+    >
+      <h1>
+        Fake project 2
+         
+        <small>
+          2014
+        </small>
+      </h1>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`Snapshot tests Atoms/ProjectTeamSize with 2 team members 1`] = `
-<dl
-  className="dl-horizontal"
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
 >
-  <div>
-    <dt>
-      Team
-    </dt>
-    <dd>
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
+  >
+    <div>
+      <dt>
+        Team
+      </dt>
+      <dd>
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+        />
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-    </dd>
+        />
+      </dd>
+    </div>
   </div>
-</dl>
+</div>
 `;
 
 exports[`Snapshot tests Atoms/ProjectTeamSize with 4 team members 1`] = `
-<dl
-  className="dl-horizontal"
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
 >
-  <div>
-    <dt>
-      Team
-    </dt>
-    <dd>
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
+  >
+    <div>
+      <dt>
+        Team
+      </dt>
+      <dd>
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+        />
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+        />
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+        />
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-    </dd>
+        />
+      </dd>
+    </div>
   </div>
-</dl>
+</div>
 `;
 
 exports[`Snapshot tests Atoms/ProjectTeamSize with 5 team members 1`] = `
-<dl
-  className="dl-horizontal"
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
 >
-  <div>
-    <dt>
-      Team
-    </dt>
-    <dd>
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
+  >
+    <div>
+      <dt>
+        Team
+      </dt>
+      <dd>
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-       
-      <span>
-        x 
-        5
-      </span>
-    </dd>
+        />
+         
+        <span>
+          x 
+          5
+        </span>
+      </dd>
+    </div>
   </div>
-</dl>
+</div>
 `;
 
 exports[`Snapshot tests Atoms/ProjectTeamSize with 20 team members 1`] = `
-<dl
-  className="dl-horizontal"
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
 >
-  <div>
-    <dt>
-      Team
-    </dt>
-    <dd>
-      <i
-        className="fa fa-user"
-        style={
-          Object {
-            "padding": "1px",
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
+  >
+    <div>
+      <dt>
+        Team
+      </dt>
+      <dd>
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
           }
-        }
-      />
-       
-      <span>
-        x 
-        20
-      </span>
-    </dd>
+        />
+         
+        <span>
+          x 
+          20
+        </span>
+      </dd>
+    </div>
   </div>
-</dl>
+</div>
 `;
 
 exports[`Snapshot tests Atoms/ProjectTechnologies default 1`] = `
-<dl
-  className="dl-horizontal"
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
 >
-  <div>
-    <dt>
-      Technologies
-    </dt>
-    <dd>
-      React, Redux, Docker, another buzzword
-    </dd>
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
+  >
+    <div>
+      <dt>
+        Technologies
+      </dt>
+      <dd>
+        React, Redux, Docker, another buzzword
+      </dd>
+    </div>
   </div>
-</dl>
+</div>
 `;
 
 exports[`Snapshot tests Molecules/ArticleCard default 1`] = `
@@ -252,56 +376,80 @@ exports[`Snapshot tests Molecules/ArticleCard default 1`] = `
 
 exports[`Snapshot tests Molecules/ContactDetails default 1`] = `
 <div
-  className="contact-details"
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
 >
-  <ul
-    className="list-inline"
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
   >
-    <li>
-      <a
-        href="https://linkedin.com/in/yourlinkedinhandle"
-        rel="noopener noreferrer"
-        target="_blank"
+    <div
+      className="contact-details"
+    >
+      <ul
+        className="list-inline"
       >
-        <i
-          className="fa fa-linkedin-square fa-2x"
-        />
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://github.com/your-github-username"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <i
-          className="fa fa-github-square fa-2x"
-        />
-      </a>
-    </li>
-    <li>
-      <a
-        href="https://twitter.com/your-twitter-handle"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <i
-          className="fa fa-twitter-square fa-2x"
-        />
-      </a>
-    </li>
-    <li>
-      <a
-        href="mailto:/an-email@awesomeness.com"
-        rel="noopener noreferrer"
-        target="_blank"
-      >
-        <i
-          className="fa fa-envelope-square fa-2x"
-        />
-      </a>
-    </li>
-  </ul>
+        <li>
+          <a
+            href="https://linkedin.com/in/yourlinkedinhandle"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fa fa-linkedin-square fa-2x"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/your-github-username"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fa fa-github-square fa-2x"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/your-twitter-handle"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fa fa-twitter-square fa-2x"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto:/an-email@awesomeness.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i
+              className="fa fa-envelope-square fa-2x"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 `;
 
