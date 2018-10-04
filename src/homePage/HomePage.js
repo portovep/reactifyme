@@ -12,7 +12,7 @@ import { homePageMetadata } from '../data/homePageMetadata';
 
 import './HomePage.css';
 
-const HomePage = () => (
+const HomePage = ({ profilePicture, bio, contactDetails }) => (
   <Page id="home" pageMetadata={homePageMetadata}>
     <div className="col-md-4 homepage__left-column">
       <ProfilePicture picture={profilePicture} />
@@ -23,5 +23,11 @@ const HomePage = () => (
     </div>
   </Page>
 );
+
+HomePage.defaultProps = {
+  profilePicture: profilePicture,
+  bio: bio,
+  contactDetails: contactDetails
+};
 
 export default HomePage;

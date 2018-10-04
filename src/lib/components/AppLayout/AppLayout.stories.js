@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { AppLayout } from './AppLayout';
 
-storiesOf('Templates/AppLayout', module).add('default', () => (
+storiesOf('Templates', module).add('App Layout', () => (
   <AppLayout>
     <div>
       <h1>This is a fake Page</h1>
