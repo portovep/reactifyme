@@ -6,6 +6,7 @@
     "@storybook/addon-storyshots": "^3.4.11",
     "@storybook/addon-a11y": "^3.4.11",
     "@storybook/addon-centered": "^3.4.11",
+    "@storybook/addon-viewport": "^3.4.11",
     "@storybook/react": "^3.4.11",
     "enzyme": "^2.9.1",
     "husky": "^0.14.3",
