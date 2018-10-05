@@ -87,6 +87,56 @@ exports[`Snapshot tests Atoms/ProjectHeader default 1`] = `
 </div>
 `;
 
+exports[`Snapshot tests Atoms/ProjectTeamSize several members 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "display": "flex",
+      "left": 0,
+      "overflow": "auto",
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "margin": "auto",
+        "maxHeight": "100%",
+      }
+    }
+  >
+    <div>
+      <dt>
+        Team
+      </dt>
+      <dd>
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
+          }
+        />
+        <i
+          className="fa fa-user"
+          style={
+            Object {
+              "padding": "1px",
+            }
+          }
+        />
+      </dd>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Snapshot tests Atoms/ProjectTeamSize with 2 team members 1`] = `
 <div
   style={
