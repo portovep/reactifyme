@@ -1,5 +1,23 @@
 export const projects = [
   {
+    id: 6,
+    name: 'Site to site VPN on AWS',
+    date: 2018,
+    description:
+      '<p>Pablo was assigned as a platform engineer to help build a secure site to site VPN on the cloud between two big organisations in the UK. The VPN provides a mechanism for these organisations to exchange very confidential user information in a secure manner' +
+      'In his role, Pablo contributed to bring the platform into production by:</p>' +
+      '<ul>' +
+      '<li>Automate the configuration of an off-the-shell VPN product (Sophos UTM) using Python/Pytest and orchestrating this configuration using Gitlab CI/CD.</li>' +
+      '<li>Helping training and coaching team members on how to do infrastructure as code following continuous delivery practices.</li>' +
+      '<li>Testing Sophos UTM configuration using Pytest.</li>' +
+      '<li>Helping with communications with external team through different connectivity testing phases to ensure smooth integration.</li>' +
+      '<li>Implementing and deploying public key infrastructure with client certificates to comply with security requirements.</li>' +
+      '</ul>',
+    teamSize: 6,
+    technologies:
+      'Terraform, Inspec, Python, PyTest, AWS, Sophos, Gitlab CI/CD, Docker, Docker Compose'
+  },
+  {
     id: 5,
     name: 'Loan assessment platform',
     date: 2017,

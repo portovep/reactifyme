@@ -3343,6 +3343,119 @@ exports[`Snapshot tests Pages Projects Page 1`] = `
             <li>
               <div
                 className="project-details"
+                id="Site to site VPN on AWS"
+              >
+                <div
+                  className="page-header"
+                  style={
+                    Object {
+                      "borderBottom": "none",
+                      "paddingBottom": "0px",
+                    }
+                  }
+                >
+                  <h1>
+                    Site to site VPN on AWS
+                     
+                    <small>
+                      2018
+                    </small>
+                  </h1>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-md-12"
+                  >
+                    <div>
+                      <ul
+                        className="nav nav-tabs"
+                      >
+                        <li
+                          className="active"
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="#info-site to site vpn on aws"
+                          >
+                            Info
+                          </a>
+                        </li>
+                      </ul>
+                      <div
+                        className="tabs-container tab-content"
+                      >
+                        <div>
+                          <div
+                            className="tab-pane"
+                            id="#info-site to site vpn on aws"
+                            role="tabpanel"
+                          >
+                            <div
+                              className="project-info-panel"
+                            >
+                              <div
+                                className="col-md-12"
+                                style={
+                                  Object {
+                                    "paddingLeft": "1%",
+                                  }
+                                }
+                              >
+                                <div
+                                  className="project-info-panel__project-description"
+                                  dangerouslySetInnerHTML={
+                                    Object {
+                                      "__html": "<p>Pablo was assigned as a platform engineer to help build a secure site to site VPN on the cloud between two big organisations in the UK. The VPN provides a mechanism for these organisations to exchange very confidential user information in a secure mannerIn his role, Pablo contributed to bring the platform into production by:</p><ul><li>Automate the configuration of an off-the-shell VPN product (Sophos UTM) using Python/Pytest and orchestrating this configuration using Gitlab CI/CD.</li><li>Helping training and coaching team members on how to do infrastructure as code following continuous delivery practices.</li><li>Testing Sophos UTM configuration using Pytest.</li><li>Helping with communications with external team through different connectivity testing phases to ensure smooth integration.</li><li>Implementing and deploying public key infrastructure with client certificates to comply with security requirements.</li></ul>",
+                                    }
+                                  }
+                                />
+                                <dl
+                                  className="dl-horizontal project-info-panel__details"
+                                >
+                                  <div>
+                                    <dt>
+                                      Team
+                                    </dt>
+                                    <dd>
+                                      <i
+                                        className="fa fa-user"
+                                        style={
+                                          Object {
+                                            "padding": "1px",
+                                          }
+                                        }
+                                      />
+                                       
+                                      <span>
+                                        x 
+                                        6
+                                      </span>
+                                    </dd>
+                                  </div>
+                                  <div>
+                                    <dt>
+                                      Technologies
+                                    </dt>
+                                    <dd>
+                                      Terraform, Inspec, Python, PyTest, AWS, Sophos, Gitlab CI/CD, Docker, Docker Compose
+                                    </dd>
+                                  </div>
+                                </dl>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div
+                className="project-details"
                 id="Loan assessment platform"
               >
                 <div
